@@ -26,7 +26,7 @@ content_markdown: >-
 
   #### Customer service
 
-  Get support in our telegram group: [AZ API Support Group](https://t.me/XT_api)<br />
+  Get support in our telegram group: [AZ API Support Group](https://localhost)<br />
   If you have any questions, please consult online customer service
 
 ---

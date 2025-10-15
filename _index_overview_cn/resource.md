@@ -26,7 +26,7 @@ content_markdown: >-
 
   #### 客户服务
 
-  在我们的电报组中获取支持: [AZ API Support Group](https://t.me/XT_api)<br />
+  在我们的电报组中获取支持: [AZ API Support Group](https://localhost)<br />
   如有疑问请咨询在线客服
 
 ---
