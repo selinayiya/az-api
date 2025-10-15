@@ -1,0 +1,33 @@
+image: ruby:3.2  # 使用 Ruby 官方镜像
+
+stages:
+  - build
+  - deploy
+
+variables:
+  JEKYLL_ENV: production
+  BUNDLE_PATH: vendor/bundle
+
+before_script:
+  - gem install bundler
+  - bundle install
+
+build_site:
+  stage: build
+  script:
+    - bundle exec jekyll build -d public  # 输出到 public 文件夹
+  artifacts:
+    paths:
+      - public
+
+pages:
+  stage: deploy
+  script:
+    - echo "Deploying to GitLab Pages"
+  dependencies:
+    - build_site
+  artifacts:
+    paths:
+      - public
+  only:
+    - main  # 或 master，根据你的默认分支

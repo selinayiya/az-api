@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" class="language-cn">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		{% seo %}
+
+		<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+		<link rel="icon" type="image/png" href="/favicon.ico">
+
+		{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+			<script>
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+				ga('create', '{{ site.google_analytics_key }}', 'auto');
+				ga('send', 'pageview');
+			</script>
+			<script async src='https://www.google-analytics.com/analytics.js'></script>
+		{% endif %}
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="{{ site.baseurl }}/js/main.js"></script>
+	</head>
+	<body>
+
+	<header>
+		<h1>
+			<button type="button" class="open-nav" id="open-nav"></button>
+			<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.svg" height="40" alt="{{ site.title }} logo"></a>
+		</h1>
+
+		<form action="{{ site.baseurl }}/search/" method="get">
+			<input type="text" name="q" id="search-input" placeholder="Search">
+			<input type="submit" value="Search" style="display: none;">
+		</form>
+		<div id="index_sidebar">
+			<div class="sidebar_en">{% include index_sidebar_en.html %}</div>
+			<div class="sidebar_cn">{% include index_sidebar_cn.html %}</div>
+		</div>
+		<div id="spot_sidebar">
+			<div class="sidebar_en">{% include sidebar_en.html %}</div>
+			<div class="sidebar_cn">{% include sidebar_cn.html %}</div>
+		</div>
+		<div id="futures_sidebar">
+			<div class="sidebar_en">{% include futures_sidebar_en.html %}</div>
+			<div class="sidebar_cn">{% include futures_sidebar_cn.html %}</div>
+		</div>
+	</header>
+
+		<div class="main">
+			<div class="i18nHead">
+        <div class="i18nButton" id="cn">简体中文</div>
+				<div class="i18nButton" id="en">english</div>
+			</div>
+			<div class="trade-type-select" id="trade_type_en">
+				<a style="cursor:pointer;" class="active-type show_index" >Index</a>
+				<a style="cursor:pointer;" class="show_spot" >Spot</a>
+				<a style="cursor:pointer;" class="show_futures">Futures</a>
+			</div>
+			<div class="trade-type-select" id="trade_type_cn">
+				<a style="cursor:pointer;" class="active-type show_index">首页</a>
+				<a style="cursor:pointer;" class="show_spot">现货</a>
+				<a style="cursor:pointer;" class="show_futures">合约</a>
+			</div>
+      <div id="content" style="margin-top: 40px;">
+			    {{ content }}
+      </div>
+		</div>
+		<script>
+			document.getElementById("open-nav").addEventListener("click", function () {
+				document.body.classList.toggle("nav-open");
+			});
+
+			//默认显示语言
+			window.lang = "en";
+			//默认展示模块
+			var model = "";
+			//所有模块数组
+			var models = new Array("index", "spot", "futures");
+
+			var query = window.location.toString();
+			//有锚点定位
+			if(query.indexOf("#")>0){
+				var anchorPoint = query.split("#")[1];
+				if(anchorPoint.indexOf("_cn")>0){
+					window.lang = "cn";
+				}else {
+					window.lang = "en";
+				}
+
+				for(var md in models){
+					var modelName = models[md];
+					if(anchorPoint.indexOf(modelName+"_")==0){
+						model= modelName;
+					}
+				}
+				if(model === ""){
+					model = "spot";
+				}
+			}else {
+				model = "index";
+			}
+			//根据当前url地址，显示对应的模块
+			showModel(model);
+
+			if(window.lang=="en"){
+				showEN();
+			}else {
+				showCN();
+			}
+
+			//根据模块名控制tag的显示和隐藏
+			function showModel(model){
+				for(var md in models){
+					var modelName = models[md];
+					if(modelName==model){
+						$("#"+modelName+"_content").show();
+						$("#"+modelName+"_search").show();
+						$("#"+modelName+"_sidebar").show();
+						$(".show_"+modelName).addClass("active-type");
+					}else {
+						$("#"+modelName+"_content").hide();
+						$("#"+modelName+"_search").hide();
+						$("#"+modelName+"_sidebar").hide();
+						$(".show_"+modelName).removeClass("active-type");
+					}
+				}
+			}
+
+			//展示中文
+			function showCN(){
+				window.lang = "cn";
+				$("#en").show();
+				$("#cn").hide();
+				$(".sidebar_cn").show();
+				$(".sidebar_en").hide();
+				$(".index_cn").show();
+				$(".index_en").hide();
+				$("#trade_type_cn").show();
+				$("#trade_type_en").hide();
+			}
+
+			//展示英文
+			function showEN(){
+				window.lang = "en";
+				$("#cn").show();
+				$("#en").hide();
+				$(".sidebar_en").show();
+				$(".sidebar_cn").hide();
+				$(".index_en").show();
+				$(".index_cn").hide();
+				$("#trade_type_en").show();
+				$("#trade_type_cn").hide();
+			}
+
+			//点击不同的tag显示对应的内容
+			for(var md in models){
+				var modelName = models[md];
+				$(".show_"+modelName).click(function (){
+					var model = $(this).attr('class').replace("active-type","").replace("show_","").trim();
+					showModel(model);
+				});
+			}
+
+			$("#cn").click(function () {
+				showCN();
+			})
+
+			$("#en").click(function () {
+				showEN();
+			})
+        </script>
+	</body>
+</html>
