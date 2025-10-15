@@ -2,7 +2,7 @@
 title: 单笔改单（限价）
 position_number: 5
 type: put
-description: /v4/order/{orderId}
+description: /az/spot/order/{orderId}
 parameters:
     -
         name: orderId

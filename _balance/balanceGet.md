@@ -2,7 +2,7 @@
 title: Get a single currency asset
 position_number: 2
 type: get
-description: /v4/balance
+description: /az/spot/balance
 parameters:
     -
         name: 'currency '

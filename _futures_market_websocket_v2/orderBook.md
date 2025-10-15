@@ -23,7 +23,7 @@ content_markdown: |-
         2.Buffer the events you receive from the stream.
 
 
-        3.Get a depth snapshot from https://fapi.az.com/future/market/v1/public/depth?symbol=btc_usdt&level=500
+        3.Get a depth snapshot from https://fapi.az.com/az/future/market/v1/public/depth?symbol=btc_usdt&level=500
 
 
         4.Drop any event where u is <= lastUpdateId in the snapshot.

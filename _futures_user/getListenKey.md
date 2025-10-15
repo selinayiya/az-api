@@ -2,7 +2,7 @@
 title: Get ListenKey
 position_number: 1.1
 type: get
-description: /future/user/v1/user/listen-key
+description: /az/future/user/v1/user/listen-key
 
 content_markdown: |-
               Note:Valid time is 8 hours

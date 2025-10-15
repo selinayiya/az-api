@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
 
-    http://fapi.az.com/future/api/v1/public/symbol/detail?symbol=btc_usdt的示例
+    http://fapi.az.com/az/future/api/v1/public/symbol/detail?symbol=btc_usdt的示例
     
     
     以下是在linux bash环境下使用 echo openssl 和curl工具实现的一个调用接口下单的示例 appkey、secret仅供示范：
@@ -70,7 +70,7 @@ content_markdown: >-
 
       路径Path示例：
 
-              /future/api/v1/public/symbol/detail
+              /az/future/api/v1/public/symbol/detail
 
               上述拼接值记作为path
 

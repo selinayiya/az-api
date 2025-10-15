@@ -3,7 +3,7 @@ title: Cancell order by query param
 position_number: 3
 type: delete
 split: -------------------------------------
-description: /v4/order
+description: /az/spot/order
 parameters:
     -
         name: orderId

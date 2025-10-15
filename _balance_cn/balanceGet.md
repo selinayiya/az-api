@@ -2,7 +2,7 @@
 title: 获取单个币种资产
 position_number: 2
 type: get
-description: /v4/balance
+description: /az/spot/balance
 parameters:
     -
         name: 'currency '

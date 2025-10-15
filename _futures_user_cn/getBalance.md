@@ -2,7 +2,7 @@
 title: 获取用户单币种资金
 position_number: 3
 type: get
-description: /future/user/v1/balance/detail
+description: /az/future/user/v1/balance/detail
 parameters:
     -
         name: coin

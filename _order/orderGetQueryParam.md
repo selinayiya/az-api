@@ -2,7 +2,7 @@
 title: Query single
 position_number: 1
 type: get
-description: /v4/order
+description: /az/spot/order
 parameters:
     -
         name: orderId

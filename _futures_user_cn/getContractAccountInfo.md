@@ -2,7 +2,7 @@
 title: 获取合约账户资产
 position_number: 1
 type: get
-description: /future/user/v1/compat/balance/list
+description: /az/future/user/v1/compat/balance/list
 parameters:
   -
     name: queryAccountId

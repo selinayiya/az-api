@@ -2,7 +2,7 @@
 title: Get latest prices ticker
 position_number: 9
 type: get
-description: /v4/public/ticker/price
+description: /az/spot/public/ticker/price
 parameters:
     -
         name: symbol

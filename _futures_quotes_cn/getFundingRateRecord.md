@@ -2,7 +2,7 @@
 title: 获取资金费率记录
 position_number: 19
 type: get
-description: /future/market/v1/public/q/funding-rate-record
+description: /az/future/market/v1/public/q/funding-rate-record
 parameters:
     -
         name: symbol
@@ -35,7 +35,7 @@ parameters:
 content_markdown: 注：**此方法不需要签名**
 left_code_blocks:
     -
-        code_block: "public void getKLine() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/future/market/v1/getKLine?market=btc_usdt&type=1min&since=0\");\r\n\tSystem.out.println(text);\r\n}"
+        code_block: "public void getKLine() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/az/future/market/v1/getKLine?market=btc_usdt&type=1min&since=0\");\r\n\tSystem.out.println(text);\r\n}"
         title: Java
         language: java
 right_code_blocks:

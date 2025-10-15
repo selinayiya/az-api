@@ -2,7 +2,7 @@
 title: 获取指定交易对的买一卖一行情信息
 position_number: 18
 type: get
-description: /future/market/v1/public/q/ticker/book
+description: /az/future/market/v1/public/q/ticker/book
 parameters:
     -
         name: symbol
@@ -14,7 +14,7 @@ parameters:
 content_markdown: 注：**此方法不需要签名**
 left_code_blocks:
     -
-        code_block: "public void getTickerBokk() {\r\n\tString text = HttpUtil.get(URL + \"/data/api//future/market/v1/public/q/ticker/book?symbol=btc_usdt\");\r\n\tSystem.out.println(text);\r\n}"
+        code_block: "public void getTickerBokk() {\r\n\tString text = HttpUtil.get(URL + \"/data/api//az/future/market/v1/public/q/ticker/book?symbol=btc_usdt\");\r\n\tSystem.out.println(text);\r\n}"
         title: Java
         language: java
 right_code_blocks:

@@ -2,7 +2,7 @@
 title: 充值历史
 position_number: 3
 type: get
-description: /v4/deposit/history
+description: /az/spot/deposit/history
 parameters:
     -
         name: currency

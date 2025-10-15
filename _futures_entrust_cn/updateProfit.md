@@ -2,7 +2,7 @@
 title: 修改止盈止损
 position_number: 12
 type: post
-description: /future/trade/v1/entrust/update-profit-stop
+description: /az/future/trade/v1/entrust/update-profit-stop
 remark: Content-Type = application/x-www-form-urlencoded && application/json
 parameters:
   - name: profitId

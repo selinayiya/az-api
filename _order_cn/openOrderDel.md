@@ -3,7 +3,7 @@ title: 撤销当前挂单
 position_number: 9
 type: delete
 split: -------------------------------------
-description: /v4/open-order
+description: /az/spot/open-order
 parameters:
     -
         name: symbol

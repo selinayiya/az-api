@@ -2,7 +2,7 @@
 title: Query trade
 position_number: 1
 type: get
-description: /v4/trade
+description: /az/spot/trade
 parameters:
     -
         name: symbol

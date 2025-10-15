@@ -2,7 +2,7 @@
 title: See Leverage Stratification of Single Trading Pair
 position_number: 5
 type: get
-description: /future/market/v1/public/leverage/bracket/detail
+description: /az/future/market/v1/public/leverage/bracket/detail
 parameters:
     -
         name: symbol
@@ -14,7 +14,7 @@ parameters:
 content_markdown: Note：This method does not require a signature.
 left_code_blocks:
     -
-        code_block: "public void getKLine() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/future/market/v1/getKLine?market=btc_usdt&type=1min&since=0\");\r\n\tSystem.out.println(text);\r\n}"
+        code_block: "public void getKLine() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/az/future/market/v1/getKLine?market=btc_usdt&type=1min&since=0\");\r\n\tSystem.out.println(text);\r\n}"
         title: Java
         language: java
 right_code_blocks:

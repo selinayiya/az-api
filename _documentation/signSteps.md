@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
 
-    Take https://sapi.az.com/v4/order as an example.
+    Take https://sapi.az.com/az/spot/order as an example.
     
     
     The following is an example appkey and secret for placing an order using a call interface implemented by echo openssl and curl tools in the linux bash environment for demonstration purposes only:
@@ -72,7 +72,7 @@ content_markdown: >-
 
     Path example:
 
-        /v4/order
+        /az/spot/order
 
         The above concatenated value is recorded as path
 
@@ -149,11 +149,11 @@ content_markdown: >-
 
         sample of original signature message:
           
-            validate-algorithms=HmacSHA256&validate-appkey=2063495b-85ec-41b3-a810-be84ceb78751&validate-recvwindow=60000&validate-timestamp=1666026215729#POST#/v4/order#{"symbol":"BTC_USDT","side":"BUY","type":"LIMIT","timeInForce":"GTC","bizType":"SPOT","price":3,"quantity":2}
+            validate-algorithms=HmacSHA256&validate-appkey=2063495b-85ec-41b3-a810-be84ceb78751&validate-recvwindow=60000&validate-timestamp=1666026215729#POST#/az/spot/order#{"symbol":"BTC_USDT","side":"BUY","type":"LIMIT","timeInForce":"GTC","bizType":"SPOT","price":3,"quantity":2}
 
         sample request message:
   
-            curl --location --request POST 'https://sapi.az.com/v4/order' 
+            curl --location --request POST 'https://sapi.az.com/az/spot/order' 
             --header 'accept: */*' 
             --header 'Content-Type: application/json' 
             --header 'validate-algorithms: HmacSHA256' 

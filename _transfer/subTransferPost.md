@@ -2,7 +2,7 @@
 title: Transfer between sub-account business systems
 position_number: 2
 type: post
-description: /v4/balance/account/transfer
+description: /az/spot/balance/account/transfer
 parameters:
     -
         name: bizId

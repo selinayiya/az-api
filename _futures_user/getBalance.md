@@ -2,7 +2,7 @@
 title: Get User's Single Currency Fund Information
 position_number: 3
 type: get
-description: /future/user/v1/balance/detail
+description: /az/future/user/v1/balance/detail
 parameters:
     -
         name: coin

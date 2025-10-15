@@ -2,7 +2,7 @@
 title: Submit batch order
 position_number: 5
 type: post
-description: /v4/batch-order
+description: /az/spot/batch-order
 parameters:
     -
         name: clientBatchId

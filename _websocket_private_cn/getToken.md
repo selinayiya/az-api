@@ -3,7 +3,7 @@ title: 获取token接口
 position_number: 4
 split: '-------------------------------------'
 type: post
-description: /v4/ws-token
+description: /az/spot/ws-token
 parameters:
     -
         name:

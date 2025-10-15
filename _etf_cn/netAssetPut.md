@@ -2,7 +2,7 @@
 title: 资产净值更新
 position_number: 2
 type: put
-description: /v4/etf/net-asset
+description: /az/spot/etf/net-asset
 parameters:
     -
         name: symbol

@@ -2,7 +2,7 @@
 title: Query the current pending order
 position_number: 8
 type: get
-description: /v4/open-order
+description: /az/spot/open-order
 parameters:
     -
         name: symbol

@@ -2,7 +2,7 @@
 title: 用户业务系统间划转
 position_number: 1
 type: post
-description: /v4/balance/transfer
+description: /az/spot/balance/transfer
 parameters:
     -
         name: bizId

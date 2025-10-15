@@ -2,14 +2,14 @@
 title: Get Futures Info
 position_number: 1
 type: get
-description: /future/market/v1/public/cg/contracts
+description: /az/future/market/v1/public/cg/contracts
 remark: Content-Type = application/x-www-form-urlencoded
 parameters:
     -
         
 content_markdown: Note：This method does not require a signature.
 left_code_blocks:
-  - code_block: "public void getMarketConfig() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/future/market/v1/public/cg/contracts\");\r\n\tSystem.out.println(text);\r\n}"
+  - code_block: "public void getMarketConfig() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/az/future/market/v1/public/cg/contracts\");\r\n\tSystem.out.println(text);\r\n}"
     title: Java
     language: java
 right_code_blocks:

@@ -2,7 +2,7 @@
 title: Get Account Related Information
 position_number: 1
 type: get
-description: /future/user/v1/account/info
+description: /az/future/user/v1/account/info
 content_markdown: |-
 
                 #### **Limit Flow Rules**

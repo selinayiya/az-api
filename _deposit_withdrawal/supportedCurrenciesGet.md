@@ -2,7 +2,7 @@
 title: Get information of currencies (available for deposit and withdraw)
 position_number: 1
 type: get
-description: /v4/public/wallet/support/currency
+description: /az/spot/public/wallet/support/currency
 parameters:
     
         

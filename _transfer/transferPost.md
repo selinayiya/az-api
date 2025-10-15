@@ -2,7 +2,7 @@
 title: Transfer between user business systems
 position_number: 1
 type: post
-description: /v4/balance/transfer
+description: /az/spot/balance/transfer
 parameters:
     -
         name: bizId

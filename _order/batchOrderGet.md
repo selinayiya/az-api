@@ -2,7 +2,7 @@
 title: Get batch
 position_number: 4
 type: get
-description: /v4/batch-order
+description: /az/spot/batch-order
 parameters:
     -
         name: orderIds

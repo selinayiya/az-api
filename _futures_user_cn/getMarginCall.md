@@ -2,7 +2,7 @@
 title: 获取持仓爆仓信息
 position_number: 18
 type: get
-description: /future/user/v1/position/break-list
+description: /az/future/user/v1/position/break-list
 parameters:
     -
         name: symbol
@@ -18,7 +18,7 @@ content_markdown: |-
                 200/s/apikey
 left_code_blocks:
     -
-        code_block: "public void getMarketConfig() {\r\n\tString text = HttpUtil.get(URL + \"/future/user/v1/position/break-list\");\r\n\tSystem.out.println(text);\r\n}"
+        code_block: "public void getMarketConfig() {\r\n\tString text = HttpUtil.get(URL + \"/az/future/user/v1/position/break-list\");\r\n\tSystem.out.println(text);\r\n}"
         title: Java
         language: java
 right_code_blocks:

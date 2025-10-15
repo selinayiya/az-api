@@ -2,7 +2,7 @@
 title: Create Orders
 position_number: 1
 type: post
-description: /future/trade/v1/order/create
+description: /az/future/trade/v1/order/create
 remark: Content-Type = application/x-www-form-urlencoded && application/json
 parameters:
     -
@@ -93,7 +93,7 @@ content_markdown: |-
 
       Truncate : take the integer part 
 
-      Balance : (walletBalance - openOrderMarginFrozen) , api: /future/user/v1/compat/balance/list  
+      Balance : (walletBalance - openOrderMarginFrozen) , api: /az/future/user/v1/compat/balance/list  
 
       Percent : user input , exp: 0.2 
 
@@ -101,7 +101,7 @@ content_markdown: |-
 
       Mark_price : current symobl mark price , exp: 88888 (btc_usdt) 
 
-      Contract_size : contractSize , api: /future/market/v1/public/symbol/detail , Contract multiplier(face value)  
+      Contract_size : contractSize , api: /az/future/market/v1/public/symbol/detail , Contract multiplier(face value)  
 
   ###### **Example**
   truncate(10000 * 0.2 * 20 / 88888 / 0.0001) = 4500
@@ -110,7 +110,7 @@ content_markdown: |-
   200/s/apikey
 left_code_blocks:
     -
-        code_block: "public void getKLine() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/future/trade/v1/getKLine?market=btc_usdt&type=1min&since=0\");\r\n\tSystem.out.println(text);\r\n}"
+        code_block: "public void getKLine() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/az/future/trade/v1/getKLine?market=btc_usdt&type=1min&since=0\");\r\n\tSystem.out.println(text);\r\n}"
         title: Java
         language: java
 right_code_blocks:

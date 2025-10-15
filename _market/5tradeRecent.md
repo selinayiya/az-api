@@ -2,7 +2,7 @@
 title: Query the list of recent transactions
 position_number: 6
 type: get
-description: /v4/public/trade/recent
+description: /az/spot/public/trade/recent
 parameters:
     -
         name: symbol

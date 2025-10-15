@@ -3,7 +3,7 @@ title: Get depth data
 position_number: 4
 type: get
 split: -------------------------------------
-description: /v4/public/depth
+description: /az/spot/public/depth
 parameters:
     -
         name: symbol

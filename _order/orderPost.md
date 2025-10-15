@@ -2,7 +2,7 @@
 title: Submit order
 position_number: 2
 type: post
-description: /v4/order
+description: /az/spot/order
 parameters:
     -
         name: symbol

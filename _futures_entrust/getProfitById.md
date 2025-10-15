@@ -2,7 +2,7 @@
 title: See Stop Limit base on Profitld
 position_number: 11
 type: get
-description: /future/trade/v1/entrust/profit-detail
+description: /az/future/trade/v1/entrust/profit-detail
 parameters:
     -
         name: profitId
@@ -18,7 +18,7 @@ content_markdown: |-
                  200/s/apikey
 left_code_blocks:
     -
-        code_block: "public void getMarketConfig() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/future/trade/v1/getMarketConfig\");\r\n\tSystem.out.println(text);\r\n}"
+        code_block: "public void getMarketConfig() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/az/future/trade/v1/getMarketConfig\");\r\n\tSystem.out.println(text);\r\n}"
         title: Java
         language: java
 right_code_blocks:

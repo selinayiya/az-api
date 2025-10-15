@@ -3,7 +3,7 @@ title: 批量撤单
 position_number: 7
 type: delete
 split: -------------------------------------
-description: /v4/batch-order
+description: /az/spot/batch-order
 parameters:
     -
         name: clientBatchId

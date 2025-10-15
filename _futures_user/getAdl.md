@@ -2,7 +2,7 @@
 title: Get ADL Information
 position_number: 13
 type: get
-description: /future/user/v1/position/adl
+description: /az/future/user/v1/position/adl
 content_markdown: |-
 
                #### **Limit Flow Rules**

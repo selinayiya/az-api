@@ -2,7 +2,7 @@
 title: Close All
 position_number: 12
 type: post
-description: /future/user/v1/position/close-all
+description: /az/future/user/v1/position/close-all
 content_markdown: |-
 
               #### **Limit Flow Rules**

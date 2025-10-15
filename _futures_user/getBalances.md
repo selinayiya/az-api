@@ -2,7 +2,7 @@
 title: Get User's Funds Information
 position_number: 4
 type: get
-description: /future/user/v1/balance/list
+description: /az/future/user/v1/balance/list
 content_markdown: |-
 
               #### **Limit Flow Rules**

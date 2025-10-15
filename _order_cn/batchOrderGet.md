@@ -2,7 +2,7 @@
 title: 批量获取
 position_number: 4
 type: get
-description: /v4/batch-order
+description: /az/spot/batch-order
 parameters:
     -
         name: orderIds

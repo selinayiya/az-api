@@ -2,7 +2,7 @@
 title: 获取交易对深度信息
 position_number: 2
 type: get
-description: /future/market/v1/public/cg/orderbook
+description: /az/future/market/v1/public/cg/orderbook
 remark: Content-Type = application/x-www-form-urlencoded
 parameters:
   -
@@ -22,7 +22,7 @@ parameters:
         
 content_markdown: Note：这个方法不需要签名
 left_code_blocks:
-  - code_block: "public void getMarketConfig() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/future/market/v1/public/cg/orderbook\");\r\n\tSystem.out.println(text);\r\n}"
+  - code_block: "public void getMarketConfig() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/az/future/market/v1/public/cg/orderbook\");\r\n\tSystem.out.println(text);\r\n}"
     title: Java
     language: java
 right_code_blocks:

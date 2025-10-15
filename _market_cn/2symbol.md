@@ -3,7 +3,7 @@ title: 获取交易对信息
 position_number: 3
 type: get
 split: '-------------------------------------'
-description: /v4/public/symbol
+description: /az/spot/public/symbol
 parameters:
     -
         name: symbol

@@ -2,7 +2,7 @@
 title: 提现详情
 position_number: 5
 type: get
-description: /v4/withdraw
+description: /az/spot/withdraw
 parameters:
     -
         name: 'recordId'

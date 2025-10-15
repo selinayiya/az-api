@@ -2,7 +2,7 @@
 title: Get User's Account Flow Information
 position_number: 5
 type: get
-description: /future/user/v1/balance/bills
+description: /az/future/user/v1/balance/bills
 parameters:
     -
         name: symbol

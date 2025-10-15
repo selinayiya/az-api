@@ -67,7 +67,7 @@ content_markdown: >-
 
       Example of Path:
 
-              /future/api/v1/public/symbol/detail
+              /az/future/api/v1/public/symbol/detail
 
               The above concatenated value is recorded as path
 

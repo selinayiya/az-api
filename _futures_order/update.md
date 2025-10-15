@@ -2,7 +2,7 @@
 title: Update Orders
 position_number: 2
 type: post
-description: /future/trade/v1/order/update
+description: /az/future/trade/v1/order/update
 remark: Content-Type = application/x-www-form-urlencoded && application/json
 parameters:
     -
@@ -103,7 +103,7 @@ content_markdown: |-
               200/s/apikey
 left_code_blocks:
     -
-        code_block: "public void getKLine() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/future/trade/v1/getKLine?market=btc_usdt&type=1min&since=0\");\r\n\tSystem.out.println(text);\r\n}"
+        code_block: "public void getKLine() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/az/future/trade/v1/getKLine?market=btc_usdt&type=1min&since=0\");\r\n\tSystem.out.println(text);\r\n}"
         title: Java
         language: java
 right_code_blocks:

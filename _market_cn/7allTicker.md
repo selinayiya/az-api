@@ -2,7 +2,7 @@
 title: 完整ticker
 position_number: 8
 type: get
-description: /v4/public/ticker
+description: /az/spot/public/ticker
 parameters:
     -
         name: symbol

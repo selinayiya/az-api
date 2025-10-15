@@ -2,7 +2,7 @@
 title: Get client ip
 position_number: 2
 type: get 
-description: /v4/public/client
+description: /az/spot/public/client
 parameters:
     -
         name:

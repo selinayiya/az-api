@@ -3,7 +3,7 @@ title: Cancell order
 position_number: 3
 type: delete
 split: -------------------------------------
-description: /v4/order/{orderId}
+description: /az/spot/order/{orderId}
 parameters:
     -
         name: orderId

@@ -2,7 +2,7 @@
 title: Get User's Step Rate
 position_number: 8
 type: get
-description: /future/user/v1/user/step-rate
+description: /az/future/user/v1/user/step-rate
 parameters:
     -
 content_markdown: |-
@@ -12,7 +12,7 @@ content_markdown: |-
               200/s/apikey
 left_code_blocks:
     -
-        code_block: "public void getStepRate() {\r\n\tString text = HttpUtil.get(URL + \"/future/user/v1/user/step-rate\");\r\n\tSystem.out.println(text);\r\n}"
+        code_block: "public void getStepRate() {\r\n\tString text = HttpUtil.get(URL + \"/az/future/user/v1/user/step-rate\");\r\n\tSystem.out.println(text);\r\n}"
         title: Java
         language: java
 right_code_blocks:

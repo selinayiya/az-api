@@ -2,7 +2,7 @@
 title: Get currency information
 position_number: 1
 type: get
-description: /v4/public/currencies
+description: /az/spot/public/currencies
 parameters:
     -
         name:

@@ -2,7 +2,7 @@
 title: 获取客户端IP
 position_number: 2
 type: get
-description: /v4/public/client
+description: /az/spot/public/client
 parameters:
     -
         name:

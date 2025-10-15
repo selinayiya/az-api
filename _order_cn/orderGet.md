@@ -2,7 +2,7 @@
 title: 单笔获取
 position_number: 1
 type: get
-description: /v4/order/{orderId}
+description: /az/spot/order/{orderId}
 parameters:
     -
         name: orderId

@@ -2,7 +2,7 @@
 title: Get the best pending order ticker
 position_number: 10
 type: get
-description: /v4/public/ticker/book
+description: /az/spot/public/ticker/book
 parameters:
     -
         name: symbol

@@ -2,7 +2,7 @@
 title: 获取充值地址
 position_number: 2
 type: get
-description: /v4/deposit/address
+description: /az/spot/deposit/address
 parameters:
     -
         name: chain

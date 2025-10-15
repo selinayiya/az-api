@@ -2,7 +2,7 @@
 title: Query historical orders
 position_number: 10
 type: get
-description: /v4/history-order
+description: /az/spot/history-order
 parameters:
     -
         name: symbol

@@ -2,7 +2,7 @@
 title: Get complete ticker
 position_number: 6
 type: get
-description: /v4/public/ticker/full
+description: /az/spot/public/ticker/full
 parameters:
     -
         name: symbol

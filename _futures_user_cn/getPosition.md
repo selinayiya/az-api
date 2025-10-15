@@ -2,7 +2,7 @@
 title: 获取持仓信息
 position_number: 7
 type: get
-description: /future/user/v1/position/list
+description: /az/future/user/v1/position/list
 parameters:
     -
         name: symbol

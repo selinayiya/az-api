@@ -3,7 +3,7 @@ title: Get a list of currency assets
 position_number: 3
 type: get
 split: -------------------------------------
-description: /v4/balances
+description: /az/spot/balances
 parameters:
     -
         name: currencies

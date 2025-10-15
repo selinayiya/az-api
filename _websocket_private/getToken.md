@@ -3,7 +3,7 @@ title: Get token
 position_number: 4
 split: '-------------------------------------'
 type: post
-description: /v4/ws-token
+description: /az/spot/ws-token
 parameters:
     -
         name:

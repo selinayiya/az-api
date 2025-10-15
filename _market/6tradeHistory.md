@@ -3,7 +3,7 @@ title: Query historical transaction list
 position_number: 7
 split: -------------------------------------
 type: get
-description: /v4/public/trade/history
+description: /az/spot/public/trade/history
 parameters:
     -
         name: symbol

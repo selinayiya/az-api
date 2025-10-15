@@ -2,7 +2,7 @@
 title: Cancel single track
 position_number: 14
 type: post
-description: /future/trade/v1/entrust/cancel-track
+description: /az/future/trade/v1/entrust/cancel-track
 remark: Content-Type = application/x-www-form-urlencoded
 parameters:
     -

@@ -2,7 +2,7 @@
 title: Get server time
 position_number: 1
 type: get 
-description: /v4/public/time
+description: /az/spot/public/time
 parameters:
     -
         name:
