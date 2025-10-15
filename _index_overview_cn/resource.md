@@ -18,11 +18,7 @@ content_markdown: >-
 
   #### Java 库
 
-  一个轻量级的Java代码库: [Java SDK](https://gitlab.com/az-backend/api-java-demo)
-
-  #### JavaScript 库
-
-  此 JavaScript SDK 提供对各种端点的访问，以便与 AZ 平台进行交互: [JavaScript SDK](https://www.npmjs.com/package/xt-open-api)
+  一个轻量级的Java代码库: [Java SDK](https://github.com/selinayiya/api-java-demo)
 
   #### 客户服务
 

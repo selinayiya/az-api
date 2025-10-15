@@ -18,11 +18,7 @@ content_markdown: >-
 
   #### Java libraries
 
-  A lightweight Java code library: [Java SDK](https://gitlab.com/az-backend/api-java-demo)
-
-  #### JavaScript SDK
-
-  This JavaScript SDK provides access to various endpoints for interacting with the AZ platform: [JavaScript SDK](https://www.npmjs.com/package/xt-open-api)
+  A lightweight Java code library: [Java SDK](https://github.com/selinayiya/api-java-demo)
 
   #### Customer service
 

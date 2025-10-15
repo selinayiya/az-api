@@ -12,7 +12,7 @@ content_markdown: >-
 
     各个语言的sdk：
         
-        java: https://gitlab.com/az-backend/api-java-demo
+        java: https://github.com/selinayiya/api-java-demo
 
 
 left_code_blocks:

@@ -12,7 +12,7 @@ content_markdown: >-
 
     Sdks for each language:
         
-        java: https://gitlab.com/az-backend/api-java-demo
+        java: https://github.com/selinayiya/api-java-demo
 
 left_code_blocks:
 - code_block:

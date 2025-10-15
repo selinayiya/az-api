@@ -12,11 +12,11 @@ content_markdown: >-
 
     各个语言的sdk：
         
-        java : https://gitlab.com/az-backend/api-java-demo
+        java : https://github.com/selinayiya/api-java-demo
     
     各个接口的请求信息样例
         
-        https://gitlab.com/az-backend/api-java-demo/-/blob/main/request.txt
+        https://github.com/selinayiya/api-java-demo/blob/main/request.txt
 
 
 left_code_blocks:

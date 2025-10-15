@@ -12,11 +12,11 @@ content_markdown: >-
 
     Sdks for each language:
         
-        java : https://gitlab.com/az-backend/api-java-demo
+        java : https://github.com/selinayiya/api-java-demo
 
     Sample request information for each interface：
         
-        https://gitlab.com/az-backend/api-java-demo/-/blob/main/request.txt
+        https://github.com/selinayiya/api-java-demo/blob/main/request.txt
 
 
 left_code_blocks:
