@@ -8,8 +8,8 @@ content_markdown: >-
 
   #### Tutorials
 
-  Learn python spot trading step by step: [Python Spot Trading Tutorial](https://github.com/kelvinxue/pyxt/blob/main/examples/spot_guide.ipynb)<br />
-  Learn python derivatives trading step by step: [Python Derivatives Trading Tutorial](https://github.com/kelvinxue/pyxt/blob/main/examples/future_guide.ipynb)
+  Learn python spot trading step by step: [Python Spot Trading Tutorial](https://github.com/selinayiya/api-python-demo/blob/main/examples/spot_guide.ipynb)<br />
+  Learn python derivatives trading step by step: [Python Derivatives Trading Tutorial](https://github.com/selinayiya/api-python-demo/blob/main/examples/future_guide.ipynb)
 
 
   #### Python libraries
