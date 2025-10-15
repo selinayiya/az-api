@@ -6,7 +6,6 @@ parameters:
 content:
 content_markdown: |-
   AZ API Telegram Group: [AZ API Support Group](https://localhost)<br />
-  AZ API Ticket： [Create API Ticket](https://xtsupport.zendesk.com/hc/zh-cn/requests/new?ticket_form_id=14988676408857)
   * <font size=3>For any general questions about the API not covered in the documentation.</font>
   * <font size=3>For any MM questions</font>
 
