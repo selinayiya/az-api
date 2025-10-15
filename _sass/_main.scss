@@ -41,7 +41,7 @@ body {
 	line-height: 1.6;
 	font-weight: 400;
 	font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande", sans-serif;
-	background: #fbfbfb;
+	background: #101111;
 
 	&.nav-open {
 		overflow: hidden;
@@ -612,12 +612,12 @@ header {
 }
 
 .i18nHead {
-	height: 40px;
-	line-height: 40px;
+	height: 60px;
+	line-height: 60px;
 	width: 35%;
 	position: fixed;
 	top: 0;
-	background: #fff;
+	background: #101111;
 	right: 0;
 }
 
