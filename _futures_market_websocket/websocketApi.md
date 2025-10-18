@@ -18,7 +18,7 @@ content_markdown: |-
     
     WS market information subscription address:  wss://fstream.az.com/ws/market
     
-    WS user subscription address:  wss://fstream.az.com/ws/user
+    WS user subscription address:  wss://f-ws.myaztests.com/ws/user
 
 left_code_blocks:
 -

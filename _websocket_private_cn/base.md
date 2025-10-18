@@ -15,7 +15,7 @@ parameters:
 content_markdown: >-
     #### **基地址**
 
-    ##### **wss://stream.az.com/private**
+    ##### **wss://s-ws.myaztests.com/private**
 
 
     ---

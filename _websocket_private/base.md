@@ -15,7 +15,7 @@ parameters:
 content_markdown: >-
     #### **Base Address**
 
-    ##### **wss://stream.az.com/private**
+    ##### **wss://s-ws.myaztests.com/private**
 
 
     ---

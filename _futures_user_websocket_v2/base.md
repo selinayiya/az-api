@@ -14,7 +14,7 @@ parameters:
 content_markdown: >-
     #### **Base Address**
 
-    ##### **wss://fstream.az.com/ws/user**
+    ##### **wss://f-ws.myaztests.com/ws/user**
 
 
     ---

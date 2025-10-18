@@ -17,7 +17,7 @@ content_markdown: |-
         **How to manage a local order book correctly**
         
 
-        1.Open a stream to wss://stream.az.com/public , depth_update@btc_usdt
+        1.Open a stream to wss://s-ws.myaztests.com/public , depth_update@btc_usdt
 
 
         2.Buffer the events you receive from the stream.

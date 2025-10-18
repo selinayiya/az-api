@@ -17,7 +17,7 @@ content_markdown: |-
         **如何正确在本地维护一个orderbook副本**
         
 
-        1.订阅 wss://stream.az.com/public，depth_update@btc_usdt
+        1.订阅 wss://s-ws.myaztests.com/public，depth_update@btc_usdt
 
 
         2.开始缓存收到的更新。同一个价位，后收到的更新覆盖前面的。

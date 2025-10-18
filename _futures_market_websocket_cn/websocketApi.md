@@ -18,7 +18,7 @@ content_markdown: |-
     
     行情ws订阅地址:  wss://fstream.az.com/ws/market
     
-    用户ws订阅地址:  wss://fstream.az.com/ws/user
+    用户ws订阅地址:  wss://f-ws.myaztests.com/ws/user
 
 left_code_blocks:
 -
