@@ -14,7 +14,7 @@ parameters:
 content_markdown: |-
     WS user subscription address:wss://f-ws.myaztests.com/ws/user
     
-    Step 1: The user need to call the interface: /v1/user/listen-key to get the listenKey.
+    Step 1: The user need to call the interface: /az/future/user/v1/user/listen-key to get the listenKey.
     
     Step 2: When subscribing to user-related websocket events, users need to send: {"req":"sub_user", "listenKey":"listenKey obtained in the previous step"}
 

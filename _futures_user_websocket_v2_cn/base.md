@@ -32,7 +32,7 @@ content_markdown: >-
 
     #### **订阅步骤**
     
-    第一步：用户要先调用接口:/v1/user/listen-key   获取listenKey <br/>
+    第一步：用户要先调用接口:/az/future/user/v1/user/listen-key   获取listenKey <br/>
   
     第二步：订阅用户相关的websocket事件时需要发送：{"method":"SUBSCRIBE","params":["order@{上一步获取的listenKey}"],"id":"test1"} <br/>
 

@@ -32,7 +32,7 @@ content_markdown: >-
 
     #### **Subscription Steps**
 
-    Step 1: The user need to call the interface: /v1/user/listen-key to get the listenKey. <br/>
+    Step 1: The user need to call the interface: /az/future/user/v1/user/listen-key to get the listenKey. <br/>
     
     Step 2: When subscribing to user-related websocket events, users need to send: {"method":"SUBSCRIBE","params":["order@{listenKey obtained in the previous step}"],"id":"test1"} <br/>
 
