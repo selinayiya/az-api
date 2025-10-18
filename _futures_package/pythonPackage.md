@@ -8,7 +8,7 @@ content_markdown: >-
   
     Official Python3 API connector for AZ.COM's HTTP APIs :
         
-        https://pypi.org/project/pyxt/
+        https://pypi.org/project/azpython/
 
 left_code_blocks:
 - code_block:

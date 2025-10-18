@@ -14,7 +14,7 @@ content_markdown: >-
 
   #### Python 库
 
-  使用Python SDK更容易集成: [Python SDK](https://pypi.org/project/pyxt/)
+  使用Python SDK更容易集成: [Python SDK](https://pypi.org/project/azpython/)
 
   #### Java 库
 

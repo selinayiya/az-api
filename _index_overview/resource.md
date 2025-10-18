@@ -14,7 +14,7 @@ content_markdown: >-
 
   #### Python libraries
 
-  Use Python SDK for easier integration: [Python SDK](https://pypi.org/project/pyxt/)
+  Use Python SDK for easier integration: [Python SDK](https://pypi.org/project/azpython/)
 
   #### Java libraries
 
