@@ -7,7 +7,7 @@ parameters:
         content:
 content_markdown: |-
 
-    **production environment: https://sapi.az.com**
+    **production environment: https://s-api.myaztests.com**
     {: .info}
 
 

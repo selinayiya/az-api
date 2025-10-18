@@ -23,7 +23,7 @@ content_markdown: |-
         2.Buffer the events you receive from the stream.
 
 
-        3.Get a depth snapshot from https://sapi.az.com/az/spot/public/depth?symbol=btc_usdt&limit=500
+        3.Get a depth snapshot from https://s-api.myaztests.com/az/spot/public/depth?symbol=btc_usdt&limit=500
 
 
         4.Drop any event where i is <= lastUpdateId in the snapshot.

@@ -8,7 +8,7 @@ parameters:
 content_markdown: |-
     正式:
 
-    **U本位合约:https://fapi.az.com**
+    **U本位合约:https://f-api.myaztests.com**
     {: .info}
 
 

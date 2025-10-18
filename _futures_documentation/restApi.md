@@ -8,7 +8,7 @@ parameters:
 content_markdown: |-
     Official:
 
-    **USDT-M:https://fapi.az.com**
+    **USDT-M:https://f-api.myaztests.com**
     {: .info}
 
 
