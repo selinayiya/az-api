@@ -28,14 +28,14 @@ left_code_blocks:
 right_code_blocks:
     -
         code_block: |-
-                {
-                  "returnCode": 0,
-                  "msgInfo": "success",
-                  "error": null
-                  "result": {
-                    "ip": 192.168.1.1  
-                  }
+              {
+                "returnCode": 0,
+                "msgInfo": "success",
+                "error": null,
+                "result": {
+                  "ip": "127.0.0.1"
                 }
+              }
         title: Response
         language: json
 ---

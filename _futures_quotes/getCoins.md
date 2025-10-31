@@ -19,9 +19,11 @@ right_code_blocks:
           "code": "",
           "msg": ""
         },
-        "msgInfo": "",
-        "result": [],
-        "returnCode": 0
+        "msgInfo": "success",
+        "returnCode": 0,
+        "result": [
+            "usdt"
+        ]
       }
     title: Response
     language: json
