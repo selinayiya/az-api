@@ -27,7 +27,7 @@ right_code_blocks:
           "code": "",
           "msg": ""
         },
-        "msgInfo": "",
+        "msgInfo": "success",
         "result": true,
         "returnCode": 0
       }

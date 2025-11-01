@@ -113,8 +113,8 @@ right_code_blocks:
           "code": "",
           "msg": ""
         },
-        "msgInfo": "",
-        "result": {},
+        "msgInfo": "success",
+        "result": "554853894216895616", //订单id
         "returnCode": 0
       }
     title: Response

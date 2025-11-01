@@ -26,29 +26,32 @@ right_code_blocks:
           "code": "",
           "msg": ""
         },
-        "msgInfo": "",
+        "msgInfo": "success",
+        "returnCode": 0,
         "result": {
-          "avgPrice": 0, //成交均价
-          "closePosition": false, //是否条件全平仓
-          "closeProfit": 0, //平仓盈亏
-          "createdTime": 0, //创建时间
-          "executedQty": 0, //已成交数量（张）
-          "forceClose": false, //是否是强平订单
-          "marginFrozen": 0, //占用保证金
-          "orderId": 0, //订单id
-          "orderSide": "", //买卖方向
-          "orderType": "", //订单类型
-          "origQty": 0, //数量（张）
-          "positionSide": "", //持仓方向
-          "price": 0, //委托价格
-          "sourceId": 0, //条件触发id
-          "state": "", //订单状态 NEW：新建订单（未成交）；PARTIALLY_FILLED：部分成交；PARTIALLY_CANCELED：部分撤销；FILLED：全部成交；CANCELED：已撤销；REJECTED：下单失败；EXPIRED：已过期
-          "symbol": "", //交易对
-          "timeInForce": "", //有效类型
-          "triggerProfitPrice": 0, //止盈触发价
-          "triggerStopPrice": 0 //止损触发价
-        },
-        "returnCode": 0
+            "orderId": "554854882113899648", //订单id
+            "symbol": "btc_usdt",            //交易对
+            "contractSize": 1.0E-4,          //合约面值
+            "orderType": "LIMIT",            //订单类型
+            "orderSide": "BUY",              //买卖方向
+            "positionSide": "LONG",          //持仓方向
+            "positionType": "CROSSED",       //仓位类型
+            "timeInForce": "GTC",            //有效类型
+            "closePosition": false,          //是否条件全平仓
+            "price": "26972.9",              //委托价格
+            "origQty": "4",                  //数量（张）
+            "executedQty": "0",              //已成交数量（张）
+            "marginFrozen": "0.539458",      //占用保证金
+            "sourceType": "DEFAULT",         //来源类型
+            "forceClose": false,             //是否是强平订单
+            "leverage": 20,                  //下单时杠杠
+            "state": "NEW",                  //订单状态 NEW：新建订单（未成交）；PARTIALLY_FILLED：部分成交；PARTIALLY_CANCELED：部分撤销；FILLED：全部成交；CANCELED：已撤销；REJECTED：下单失败；EXPIRED：已过期
+            "createdTime": 1761989712601,    //创建时间
+            "updatedTime": 1761989712656,    //更新时间
+            "welfareAccount": false,         //是否体验金
+            "markPrice": "110037.1",         //订单上的标记价格
+            "profit": false                  //是否触发止盈止损订单
+        }
       }
     title: Response
     language: json
