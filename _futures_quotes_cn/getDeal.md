@@ -31,17 +31,17 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": [
             {
-              "a": 0, //成交量
-              "m": "", //买卖方向
-              "p": 0, //成交价
-              "s": "", //交易对
-              "t": 0 //成交时间
+                "t": 1761978847393, //成交时间
+                "s": "btc_usdt",    //交易对
+                "p": "110088.8",    //成交价
+                "a": "3",           //成交量
+                "m": "BID"          //买卖方向
             }
-          ],
-          "returnCode": 0
+          ]
         }
       title: Response
       language: json

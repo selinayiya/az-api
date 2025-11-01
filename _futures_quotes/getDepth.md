@@ -38,15 +38,25 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "a": [], //Buy
-            "b": [], //Sell
-            "s": "", //Trading pair
-            "t": 0, //Time
-            "u": 0 //updateId
-          },
-          "returnCode": 0
+                "t": 1761979495332,  //Timestamp
+                "s": "btc_usdt",     //Trading pair
+                "u": 1761965792147,  //updateId
+                "b": [               //BID
+                    [
+                        "109923.4",
+                        "18679"
+                    ]
+                ],
+                "a": [               //ASK
+                    [
+                        "109923.5",
+                        "1773"
+                    ]
+                ]        
+          }
         }
       title: Response
       language: json

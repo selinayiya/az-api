@@ -17,25 +17,24 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": [
-            {
+            { 
+              "symbol": "eth_usdt",
               "leverageBrackets": [
                 {
-                  "bracket": 0, //档位
-                  "maintMarginRate": 0, //维持保证金率
-                  "maxLeverage": 0, //最大杠杆倍数
-                  "maxNominalValue": 0, //该层最大名义价值
-                  "maxStartMarginRate": 0, //最大起始保证金率
-                  "minLeverage": 0, //最小杠杆倍数
-                  "startMarginRate": 0, //起始保证金率
-                  "symbol": "" //交易对
+                    "symbol": "eth_usdt",       //交易对
+                    "bracket": 1,               //档位
+                    "maxNominalValue": "50000", //该层最大名义价值
+                    "maintMarginRate": "0.004", //维持保证金率
+                    "startMarginRate": "0.005", //起始保证金率
+                    "maxLeverage": "125",       //最大杠杆倍数
+                    "minLeverage": "1"          //最小杠杆倍数
                 }
-              ],
-              "symbol": ""
+              ]
             }
-          ],
-          "returnCode": 0
+          ]
         }
       title: Response
       language: json

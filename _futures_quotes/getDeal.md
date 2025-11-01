@@ -31,17 +31,17 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": [
             {
-              "a": 0, //Volume
-              "m": "", //Order side
-              "p": 0, //Price
-              "s": "", //Trading pair
-              "t": 0 //Time
+                "t": 1761978847393, //Timestamp
+                "s": "btc_usdt",    //Trading pair
+                "p": "110088.8",    //Price
+                "a": "3",           //Volume
+                "m": "BID"          //Order side
             }
-          ],
-          "returnCode": 0
+          ]
         }
       title: Response
       language: json

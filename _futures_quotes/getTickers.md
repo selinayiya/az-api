@@ -17,21 +17,21 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": [
             {
-              "a": "", //24h volume
-              "c": "", //Latest price
-              "h": "", //Highest price in 24 hours
-              "l": "", //Lowest price in 24 hours
-              "o": "", //The first transaction price 24 hours ago
-              "r": "", //24h Price Fluctuation Limit
-              "s": "", //Trading pair
-              "t": 0, //Time
-              "v": "" //24h turnover
+                "t": 1761978054921,    //Timestamp
+                "s": "btc_usdt",       //Trading pair
+                "c": "109981.3",       //Latest price
+                "h": "114308.1",       //Highest price in 24 hours
+                "l": "108600.0",       //Lowest price in 24 hours
+                "a": "3128038",        //24h volume
+                "v": "34412784.72516", //24h turnover
+                "o": "109658.1",       //The first transaction price 24 hours ago
+                "r": "0.0029"          //24h Price Fluctuation Limit
             }
-          ],
-          "returnCode": 0
+          ]
         }
       title: Response
       language: json

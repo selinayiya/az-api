@@ -38,15 +38,25 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "a": [], //卖单
-            "b": [], //买单
-            "s": "", //交易对
-            "t": 0, //时间
-            "u": 0 //updateId
-          },
-          "returnCode": 0
+                "t": 1761979495332,  //时间
+                "s": "btc_usdt",     //交易对
+                "u": 1761965792147,  //updateId
+                "b": [               //买单
+                    [
+                        "109923.4",
+                        "18679"
+                    ]
+                ],
+                "a": [               //卖单
+                    [
+                        "109923.5",
+                        "1773"
+                    ]
+                ]
+          }
         }
       title: Response
       language: json
