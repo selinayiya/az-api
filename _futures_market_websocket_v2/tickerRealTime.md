@@ -29,19 +29,19 @@ right_code_blocks:
     -
         code_block: |-
                 {
-                    "topic": "ticker", 
-                    "event": "ticker@btc_usdt", 
-                    "data": {
-                        "s":"btc_index", //trading pair
-                        "o":"49000",     // opening price
-                        "c":"50000",    //Closing price
-                        "h":"0.1",      //highest price
-                        "l":"0.1",       //lowest price
-                        "a":"0.1",      //volume
-                        "v":"0.1",       //Turnover
-                        "ch":"0.21",   //Quote change
-                        "t":123124124   //timestamp
-                   }
+                      "topic": "ticker",
+                      "event": "ticker@btc_usdt",
+                      "data": {
+                        "s": "btc_usdt",      //trading pair
+                        "o": "109927.8",      // opening price
+                        "c": "109822.7",      //Closing price
+                        "h": "114308.1",      //highest price
+                        "l": "108600.0",      //low 最低价
+                        "a": "1877436",       //volume
+                        "v": "20640737.33039",//Turnover
+                        "r": "-0.0009",       //24-hour Price Change Percentage
+                        "t": 1762007085988    //timestamp
+                      }
                 }
         title: Response
         language: json

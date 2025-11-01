@@ -37,11 +37,11 @@ right_code_blocks:
                     "topic": "depth", 
                     "event": "depth@btc_usdt,20", 
                     "data": {
-                        "id": "1234", //lastUpdateId
-                        "s":"btc_index", //trading pair
-                        "a":[["50000","0.1"],["50001","0.2"]],    //ask sell order queue,[price, quantity]
-                        "b":[["49999","0.1"],["48888","0.2"]],   //bid buy queue
-                        "t": 123456789 // time stamp
+                        "id": "1234",                          //lastUpdateId
+                        "s":"btc_index",                       //trading pair
+                        "a":[["50000","0.1"],["50001","0.2"]], //ask sell order queue,[price, quantity]
+                        "b":[["49999","0.1"],["48888","0.2"]], //bid buy queue
+                        "t": 123456789                         //timestamp
                     }
                 }
         title: Response

@@ -35,19 +35,19 @@ right_code_blocks:
     -
         code_block: |-
                 {
-                        "topic": "kline",
-                        "event": "kline@btc_usdt,5m",
-                            "data": {
-                                "s":"btc_index", //交易对
-                                "o":"49000", // open 开盘价
-                                "c":"50000",    //cloes 收盘价
-                                "h":"0.1", //high 最高价
-                                "l":"0.1", //low 最低价
-                                "a":"0.1", //amount 成交量
-                                "v":"0.1", //volume 成交额
-                                "ch":"0.21",   //change 涨跌幅
-                                "t":123124124   //时间戳
-                            }
+                    "topic": "kline",
+                    "event": "kline@btc_usdt,4h",
+                    "data": {
+                      "s": "btc_usdt",      //交易对
+                      "o": "110096.3",      //open 开盘价
+                      "c": "109933.6",      //cloes 收盘价
+                      "h": "110164.4",      //high 最高价
+                      "l": "109654.6",      //low 最低价
+                      "a": "122187",        //amount 成交量
+                      "v": "1344027.60259", //volume 成交额
+                      "i": "4h",            //interval
+                      "t": 1761998400000    //时间戳
+                    }          
                 }
         title: Response
         language: json

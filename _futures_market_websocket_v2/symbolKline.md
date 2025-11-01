@@ -35,19 +35,19 @@ right_code_blocks:
     -
         code_block: |-
                 {
-                    "topic": "kline", 
-                    "event": "kline@btc_usdt,5m", 
-                    "data": {
-                        "s":"btc_index", //trading pair
-                        "o":"49000",     // opening price
-                        "c":"50000",    //Closing price
-                        "h":"0.1",      //highest price
-                        "l":"0.1",       //lowest price
-                        "a":"0.1",      //volume
-                        "v":"0.1",       //Turnover
-                        "ch":"0.21",   //Quote change
-                        "t":123124124   //timestamp
-                    }
+                      "topic": "kline",
+                      "event": "kline@btc_usdt,4h",
+                      "data": {
+                        "s": "btc_usdt",      //trading pair
+                        "o": "110096.3",      // opening price
+                        "c": "109933.6",      //Closing price
+                        "h": "110164.4",      //highest price
+                        "l": "109654.6",      //lowest price
+                        "a": "122187",        //volume
+                        "v": "1344027.60259", //Turnover
+                        "i": "4h",            //Interval
+                        "t": 1761998400000    //Timestamp
+                      }     
                 }
         title: Response
         language: json
