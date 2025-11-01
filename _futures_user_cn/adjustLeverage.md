@@ -43,8 +43,8 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
-          "result": {},
+          "msgInfo": "success",
+          "result": null,
           "returnCode": 0
         }
       title: Response
