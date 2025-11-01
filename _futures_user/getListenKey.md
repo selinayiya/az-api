@@ -21,8 +21,8 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
-          "result": {},
+          "msgInfo": "success",
+          "result": "2132B8F0C778486D6EBAC39FAxxx",
           "returnCode": 0
         }
       title: Response

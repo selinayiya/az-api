@@ -21,20 +21,21 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": [
             {
-              "availableBalance": 0,      //可用余额
-              "coin": "",                 //币种
-              "isolatedMargin": 0,        //逐仓保证金冻结
-              "openOrderMarginFrozen": 0, //订单冻结
-              "crossedMargin": 0,         //全仓起始保证金
-              "bonus": 0,                 //体验金余额
-              "coupon": 0,                //抵扣金余额
-              "walletBalance": 0          //钱包余额
+                "coin": "usdt",                         //币种
+                "walletBalance": "5000019.09277742",    //钱包余额
+                "openOrderMarginFrozen": "11.419247",   //订单冻结
+                "isolatedMargin": "0",                  //逐仓保证金冻结
+                "crossedMargin": "19.62351083",         //全仓起始保证金
+                "availableBalance": "4999988.05001959", //可用余额
+                "bonus": "0",                           //体验金余额
+                "bonusDisRate": "0.5",                  //触发时的体验金抵扣率
+                "coupon": "0"                           //抵扣金余额        
             }
-          ],
-          "returnCode": 0
+          ]
         }
       title: Response
       language: json

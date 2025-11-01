@@ -20,20 +20,21 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": [
             {
-              "availableBalance": 0,      //Available balance
-              "coin": "",                 //Currency
-              "isolatedMargin": 0,        //Frozen isolated margin
-              "openOrderMarginFrozen": 0, //Frozen order
-              "crossedMargin": 0,         //Crossed Margin
-              "bonus": 0,                 //Bouns
-              "coupon": 0,                //Coupon
-              "walletBalance": 0          //Balance
+                "coin": "usdt",                         //Currency
+                "walletBalance": "5000019.09277742",    //Balance
+                "openOrderMarginFrozen": "11.419247",   //Frozen order
+                "isolatedMargin": "0",                  //Frozen isolated margin
+                "crossedMargin": "19.62351083",         //Crossed Margin
+                "availableBalance": "4999988.05001959", //Available balance
+                "bonus": "0",                           //Bouns
+                "bonusDisRate": "0.5",                  //Experience Fund Deduction Rate at Trigger
+                "coupon": "0"                           //Coupon        
             }
-          ],
-          "returnCode": 0
+          ]
         }
       title: Response
       language: json
