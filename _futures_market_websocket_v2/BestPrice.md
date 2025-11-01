@@ -33,8 +33,8 @@ right_code_blocks:
                     "event": "best_price@btc_usdt", 
                     "data": {
                         "s": "btc_usdt", //symbol
-                        "a": "123",      //ask
-                        "b": "234",      //bid
+                        "a": "109598.4", //ask
+                        "b": "109598.3", //bid
                         "t": 123124124   //timestamp
                     }
                 }
