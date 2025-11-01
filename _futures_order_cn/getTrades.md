@@ -63,26 +63,29 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "items": [
-              {
-                "fee": 0,               //手续费
-                "feeCoin": "",          //手续费币种
-                "orderId": 0,           //订单id
-                "execId": 0,            //成交id
-                "price": 0,             //成交价格
-                "quantity": 0,          //成交数量
-                "symbol": "",           //交易对
-                "timestamp": 0,         //时间
-                "takerMaker": "TAKER"   
-              }
-            ],
-            "page": 0,
-            "ps": 0,
-            "total": 0
-          },
-          "returnCode": 0
+                "page": 1,
+                "ps": 10,
+                "total": 9,
+                "items": [
+                    {
+                        "orderId": "551497070209712960", //订单id
+                        "execId": "551497070368784451",  //成交id
+                        "symbol": "btc_usdt",            //交易对
+                        "contractSize": 1.0E-4,          //合约面值
+                        "quantity": "4",                 //成交数量
+                        "price": "108460.5",             //成交价格
+                        "fee": "0.02603052",             //手续费
+                        "feeCoin": "usdt",               //手续费币种
+                        "timestamp": 1761189147896,      //时间戳
+                        "takerMaker": "TAKER",           
+                        "orderSide": "BUY",              //买卖方向
+                        "positionSide": "LONG"           //持仓方向
+                    }
+                ]
+          }
         }
       title: Response
       language: json

@@ -63,26 +63,29 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "items": [
-              {
-                "fee": 0,                //Fee
-                "feeCoin": "",           //Currency of fee
-                "orderId": 0,            //Order ID
-                "execId": 0,             //Trade ID
-                "price": 0,              //Price
-                "quantity": 0,           //Volume
-                "symbol": "",            //Trading pair
-                "timestamp": 0,          //Time
-                "takerMaker": "TAKER"    //taker or maker
-              }
-            ],
-            "page": 0,
-            "ps": 0,
-            "total": 0
-          },
-          "returnCode": 0
+                "page": 1,
+                "ps": 10,
+                "total": 9,
+                "items": [
+                    {
+                        "orderId": "551497070209712960", //Order Id
+                        "execId": "551497070368784451",  //Execution Id
+                        "symbol": "btc_usdt",            //Symbol
+                        "contractSize": 1.0E-4,          //Contract Size
+                        "quantity": "4",                 //Volume
+                        "price": "108460.5",             //Price
+                        "fee": "0.02603052",             //Fee
+                        "feeCoin": "usdt",               //Currency of fee
+                        "timestamp": 1761189147896,      //Timestamp
+                        "takerMaker": "TAKER",           
+                        "orderSide": "BUY",              //Order Size
+                        "positionSide": "LONG"           //Position Size
+                    }
+                ]
+          }
         }
       title: Response
       language: json
