@@ -24,15 +24,15 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": [
             {
-              "p": 0, //Price
-              "s": "", //Trading pair
-              "t": 0 //Time
+                "s": "btc_usdt",   //Trading pair
+                "p": "110099.3",   //Price
+                "t": 1761981389615 //Timestamp
             }
-          ],
-          "returnCode": 0
+          ]
         }
       title: Response
       language: json
