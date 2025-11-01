@@ -17,26 +17,26 @@ parameters:
         mandatory: true
         default: N/A
         description: Time-interval
-        ranges: 1m;5m;15m;30m;1h;4h;1d;1w
+        ranges: 1m;3m;5m;15m;30m;1h;2h;4h;6h;8h;12h;1d;2d;3d;1w;1M
     -
         name: startTime
         type: integer
         mandatory: false
-        default: N/A
+        default: current time
         description: Start time
         ranges:
     -
         name: endTime
         type: integer
         mandatory: false
-        default: N/A
+        default: current time
         description: End time
         ranges:
     -
         name: limit
         type: integer
         mandatory: false
-        default: N/A
+        default: 500
         description: Limit
         ranges:
 content_markdown: Note：This method does not require a signature.
@@ -52,20 +52,21 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": [
             {
-              "a": 0, //Volume
-              "c": 0, //Close price
-              "h": 0, //Highest price
-              "l": 0, //Lowest price
-              "o": 0, //Open price
-              "s": "", //Trading pair
-              "t": 0, //Time
-              "v": 0 //Turnover
+                "s": "btc_usdt",    //Symbol
+                "p": "btc_usdt",    //Trading pair
+                "t": 1761981840000, //Timestamp
+                "o": "110099.8",    //Open price
+                "c": "110134.7",    //Close price
+                "h": "110134.8",    //Highest price
+                "l": "110089.3",    //Lowest price
+                "a": "2998",        //Volume
+                "v": "33010.77054"  //Turnover
             }
-          ],
-          "returnCode": 0
+          ]
         }
       title: Response
       language: json
