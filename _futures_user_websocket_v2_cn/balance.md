@@ -36,12 +36,15 @@ right_code_blocks:
                 "topic": "balance", 
                 "event": "balance@123456", 
                 "data": {
-                     "coin":"usdt",
-                     "underlyingType":1, //  1:币本位，2:U本位
-                     "walletBalance":"123", // 钱包余额
-                     "openOrderMarginFrozen":"123", // 订单冻结
-                     "isolatedMargin":"213",  // 逐仓保证金
-                     "crossedMargin":"0" //全仓保证金
+                            "coin": "usdt",                        //币种
+                            "underlyingType": 2,                   //1:币本位，2:U本位
+                            "walletBalance": "9652.09217635",      // 钱包余额
+                            "openOrderMarginFrozen": "0.00000000", // 订单冻结
+                            "isolatedMargin": "0",                 // 逐仓保证金
+                            "crossedMargin": "38.58021896",        //全仓保证金
+                            "availableBalance": "9613.51195739",   //可用余额
+                            "coupon": "0",                         //抵扣金余额
+                            "bonus": "0"                           //体验金余额
                    }  
             }
         title: Response

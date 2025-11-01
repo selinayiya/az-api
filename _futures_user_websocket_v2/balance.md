@@ -36,12 +36,15 @@ right_code_blocks:
                 "topic": "balance", 
                 "event": "balance@123456", 
                 "data": {
-                     "coin":"usdt",
-                     "underlyingType":1, //  1:Coin-M,2:USDT-M
-                     "walletBalance":"123", // Balance
-                     "openOrderMarginFrozen":"123", // Frozen order
-                     "isolatedMargin":"213",  // Isolated Margin
-                     "crossedMargin":"0" //Crossed Margin
+                          "coin": "usdt",                        //Currency
+                          "underlyingType": 2,                   //1:Coin-M,2:USDT-M
+                          "walletBalance": "9652.09217635",      // Balance
+                          "openOrderMarginFrozen": "0.00000000", // Frozen order
+                          "isolatedMargin": "0",                 // Isolated Margin
+                          "crossedMargin": "38.58021896",        //Crossed Margin
+                          "availableBalance": "9613.51195739",   //Available Balance
+                          "coupon": "0",                         //Coupon
+                          "bonus": "0"                           //Bonus
                    }  
             }
         title: Response
