@@ -46,7 +46,9 @@ right_code_blocks:
                         "orderSide": "BUY",         //Order side
                         "positionSide": "LONG",     //Position side
                         "isMaker": true,            //Is maker or not, true:maker;false:taker
-                        "fee": 0.0002               //fee
+                        "fee": 0.0002,              //fee
+                        "oppositeUserId": 1234,     //Opposite User Id
+                        "oppositeOrderId": 2345     //Opposite Order Id
                    }
             }
         title: Response

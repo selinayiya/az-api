@@ -46,7 +46,9 @@ right_code_blocks:
                         "orderSide": "BUY",       //订单方向
                         "positionSide": "LONG",   //持仓方向
                         "isMaker": true,          //是否是maker,true:maker;false:taker
-                        "fee": 0.0002             //手续费
+                        "fee": 0.0002,            //手续费
+                        "oppositeUserId": 1234,   //对手方用户id
+                        "oppositeOrderId": 2345   //对手方订单id
                    }
             }
         title: Response
