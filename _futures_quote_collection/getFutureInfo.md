@@ -39,6 +39,7 @@ right_code_blocks:
           "target_volume": "73698647.51054371",  //24 hours trading volume
           "ticker_id": "ETH-USD",           //Identifier of a ticker with delimiter to separate base/target, eg. BTC-PERP
           "underlyingType": 1               //Target type, Coin-M,USDT-M
+          "collection_internal": 1          //Billing Cycle (hour)
         }]
     title: Response
     language: json

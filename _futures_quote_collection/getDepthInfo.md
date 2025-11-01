@@ -28,22 +28,20 @@ left_code_blocks:
 right_code_blocks:
   - code_block: |-
       {
-                "ticker_id": "BTC-USDT", 
-                "timestamp": 1698668957638,
-                "bids": [[
-                     "34794.6",
-                     "97164"
-                    ],[
-                     "34794.5",
-                     "9897"
-                    ],...], 
-                "asks": [[
-                     "34794.7",
-                     "168479"
-                    ],[
-                     "34794.8",
-                     "4009"
-                    ],...]
+            "ticker_id": "BTC-USDT",
+            "timestamp": 1761987036772,
+            "bids": [
+              [
+                "110166.2",
+                "16515"
+              ]
+            ],
+            "asks": [
+              [
+                "110166.3",
+                "7092"
+              ]
+            ]
       }
     title: Response
     language: json

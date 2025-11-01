@@ -31,14 +31,14 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "symbol": "", //Trading pair
-            "openInterest": "", //open position
-            "openInterestUsd": 0, //open value
-            "time": "", //time
-          },
-          "returnCode": 0
+                "symbol": "btc_usdt",               //Trading pair
+                "openInterest": "222.6832",         //Open position
+                "openInterestUsd": "24442143.06946",//Open value
+                "time": 1761985665202               //Timestamp
+          }
         }
       title: Response
       language: json

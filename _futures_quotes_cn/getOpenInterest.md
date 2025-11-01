@@ -31,14 +31,14 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "symbol": "", //交易对
-            "openInterest": "", //开仓量
-            "openInterestUsd": 0, //开仓价值
-            "time": "", //时间
-          },
-          "returnCode": 0
+                "symbol": "btc_usdt",               //交易对
+                "openInterest": "222.6832",         //开仓量
+                "openInterestUsd": "24442143.06946",//开仓价值
+                "time": 1761985665202               //时间戳
+          }
         }
       title: Response
       language: json

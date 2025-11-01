@@ -38,7 +38,8 @@ right_code_blocks:
           "target_currency": "USD",         //报价币种
           "target_volume": "73698647.51054371",  //24小时交易量
           "ticker_id": "ETH-USD",           //代码标识符
-          "underlyingType": 1               //标的类型，币本位，u本位
+          "underlyingType": 1,              //标的类型，币本位，u本位
+          "collection_internal": 1          //收取时间间隔（小时）
         }]
     title: Response
     language: json
