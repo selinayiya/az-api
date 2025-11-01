@@ -64,30 +64,32 @@ right_code_blocks:
         },
         "msgInfo": "",
         "result": {
-          "hasNext": false, //Is there a next page
-          "hasPrev": false, //Is there a previous page
-          "items": [ //Datasheets
+          "hasNext": false,                     //Is there a next page
+          "hasPrev": false,                     //Is there a previous page
+          "items": [ 
             {
-              "clientOrderId": "", //Client order ID
-              "avgPrice": 0, //Average price
-              "closePosition": false, //Whether to close all when order condition is triggered
-              "closeProfit": 0, //Offset profit and loss
-              "createdTime": 0, //Creat time
-              "executedQty": 0, //Volume (Cont)
-              "forceClose": false, //Is it a liquidation order
-              "marginFrozen": 0, //Occupied margin
-              "orderId": 0, //Order ID
-              "orderSide": "", //Order side
-              "orderType": "", //Order type
-              "origQty": 0, //Quantity (Cont)
-              "positionSide": "", //Position side
-              "price": 0, //Order price
-              "sourceId": 0, //Triggering conditions ID
-              "state": "", //Order state:NEW：New order (unfilled);PARTIALLY_FILLED:Partial deal;PARTIALLY_CANCELED:Partial revocation;FILLED:Filled;CANCELED:Cancled;REJECTED:Order failed;EXPIRED：Expired
-              "symbol": "", //Trading pair
-              "timeInForce": "", //Valid type
-              "triggerProfitPrice": 0, //TP trigger price
-              "triggerStopPrice": 0 //SL trigger price
+                "orderId": "554845056780618880", //Order ID
+                "symbol": "btc_usdt",        //Trading pair
+                "contractSize": 1.0E-4,      //Contract size
+                "orderType": "LIMIT",        //Order type
+                "orderSide": "BUY",          //Order side
+                "positionSide": "LONG",      //Position side
+                "positionType": "CROSSED",   //Position type
+                "timeInForce": "GTC",        //Valid type
+                "closePosition": false,      //Whether to close all when order condition is triggered
+                "price": "26972.9",          //Order price
+                "origQty": "4",              //Quantity (Cont)
+                "executedQty": "0",          //Volume (Cont)
+                "marginFrozen": "0.539458",  //Occupied margin
+                "sourceType": "DEFAULT",     //Source type
+                "forceClose": false,         //Is it a liquidation order
+                "leverage": 20,
+                "state": "NEW",              //Order state:NEW：New order (unfilled);PARTIALLY_FILLED:Partial deal;PARTIALLY_CANCELED:Partial revocation;FILLED:Filled;CANCELED:Cancled;REJECTED:Order failed;EXPIRED：Expired
+                "createdTime": 1761987370059,//Creat time
+                "updatedTime": 1761987370106,
+                "welfareAccount": false,     //Is Experience Fund
+                "markPrice": "110181.6",     //Mark Price
+                "profit": false              //Is Take-Profit/Stop-Loss Order Triggered
             }
           ]
         },
