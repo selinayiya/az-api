@@ -12,19 +12,19 @@ parameters:
         description: Trading pair
         ranges:
     -
-        name: direction
-        type: string
-        mandatory: false
-        default: NEXT
-        description: "Direction（PREV:Previous page；NEXT:Next page）\t"
-        ranges: PREV;NEXT
-    -
         name: id
         type: integer
         mandatory: false
         default: N/A
         description: id
         ranges:
+    -
+        name: direction
+        type: string
+        mandatory: false
+        default: NEXT
+        description: "Direction（PREV:Previous page；NEXT:Next page）\t"
+        ranges: PREV;NEXT
     -
         name: limit
         type: integer
@@ -45,21 +45,21 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "hasNext": false, //Is there a next page
-            "hasPrev": false, //Is there a previous page
-            "items": [ //Datasheets
-              {
-                "collectionInternal": 0, //Billing Cycle (second)
-                "createdTime": 0, //Time
-                "fundingRate": 0, //Latest funding rate
-                "id": 0, //id
-                "symbol": "" //Trading pair
-              }
-            ]
-          },
-          "returnCode": 0
+                "hasPrev": false,                        //Is there a previous page
+                "hasNext": true,                         //Is there a next page
+                "items": [
+                    {
+                        "id": "554830922718404672",      //id
+                        "symbol": "btc_usdt",            //Trading pair
+                        "fundingRate": "-0.000162821857",//Latest funding rate
+                        "createdTime": 1761984000000,    //Create Timestamp
+                        "collectionInternal": 3600       //Billing Cycle (second)
+                    }
+                ]
+          }
         }
       title: Response
       language: json

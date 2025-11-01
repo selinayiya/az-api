@@ -12,19 +12,19 @@ parameters:
         description: 交易对
         ranges:
     -
-        name: direction
-        type: string
-        mandatory: false
-        default: NEXT
-        description: "方向（PREV:上一页；NEXT:下一页）\t"
-        ranges: PREV;NEXT
-    -
         name: id
         type: integer
         mandatory: false
         default: N/A
         description: id
         ranges:
+    -
+        name: direction
+        type: string
+        mandatory: false
+        default: NEXT
+        description: "方向（PREV:上一页；NEXT:下一页）\t"
+        ranges: PREV;NEXT
     -
         name: limit
         type: integer
@@ -45,21 +45,21 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "hasNext": false, //是否有下一页
-            "hasPrev": false, //是否有上一页
-            "items": [ //数据列表
-              {
-                "collectionInternal": 0, //收取时间间隔（秒）
-                "createdTime": 0, //时间
-                "fundingRate": 0, //最新资金费率
-                "id": 0, //id
-                "symbol": "" //交易对
-              }
-            ]
-          },
-          "returnCode": 0
+                "hasPrev": false,                        //是否有上一页
+                "hasNext": true,                         //是否有下一页
+                "items": [
+                    {
+                        "id": "554830922718404672",      //id
+                        "symbol": "btc_usdt",            //交易对
+                        "fundingRate": "-0.000162821857",//最新资金费率
+                        "createdTime": 1761984000000,    //时间戳
+                        "collectionInternal": 3600       //收取时间间隔（秒）
+                    }
+                ]
+          }
         }
       title: Response
       language: json

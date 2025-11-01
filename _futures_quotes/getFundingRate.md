@@ -32,21 +32,14 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "hasNext": false, //Is there a next page
-            "hasPrev": false, //Is there a previous page
-            "items": [ //Datasheets
-              {
-                "collectionInternal": 0, //Billing Cycle (hour)
-                "createdTime": 0, //Time
-                "fundingRate": 0, //Latest funding rate
-                "id": 0, //id
-                "symbol": "" //Trading pair
-              }
-            ]
-          },
-          "returnCode": 0
+                "symbol": "btc_usdt",               //Trading Pair
+                "fundingRate": -1.53695081E-4,      //Latest Funding Rate
+                "nextCollectionTime": 1761984000000,//Next Billing Date
+                "collectionInternal": 1             //Billing Cycle (hour)
+          }
         }
       title: Response
       language: json

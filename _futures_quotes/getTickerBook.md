@@ -24,16 +24,16 @@ right_code_blocks:
           "code": "",
           "msg": ""
         },
-        "msgInfo": "",
+        "msgInfo": "success",
+        "returnCode": 0,
         "result": {
-          "ap": "", //ask price
-          "aq": "", //ask amount
-          "bp": "", //bid price
-          "bq": "", //bid amount
-          "s": "", //Trading pair
-          "t": 0 //Time
-        },
-        "returnCode": 0
+                "s": "btc_usdt",    //Trading pair
+                "t": 1761983754635, //Timestamp
+                "ap": "110045.0",   //ask price
+                "aq": "13619",      //ask amount
+                "bp": "110044.9",   //bid price
+                "bq": "9667"        //bid amount
+        }
       }
     title: Response
     language: json

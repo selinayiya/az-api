@@ -17,18 +17,18 @@ right_code_blocks:
           "code": "",
           "msg": ""
         },
-        "msgInfo": "",
+        "msgInfo": "success",
+        "returnCode": 0,
         "result": [
           {
-            "ap": "", //卖一价格
-            "aq": "", //卖一数量
-            "bp": "", //买一价格
-            "bq": "", //买一数量
-            "s": "", //交易对
-            "t": 0 //时间
+                "s": "btc_usdt",    //交易对
+                "t": 1761983754635, //时间戳
+                "ap": "110045.0",   //卖一价格
+                "aq": "13619",      //卖一数量
+                "bp": "110044.9",   //买一价格
+                "bq": "9667"        //买一数量
           }
-        ],
-        "returnCode": 0
+        ]
       }
     title: Response
     language: json

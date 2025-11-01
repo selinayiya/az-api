@@ -45,20 +45,20 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "hasNext": false, //是否有下一页
-            "hasPrev": false, //是否有上一页
-            "items": [ //数据列表
-              {
-                "amount": 0, //余额
-                "coin": "", //币种
-                "createdTime": 0, //时间
-                "id": 0 //id
-              }
-            ]
-          },
-          "returnCode": 0
+                "hasPrev": false,                     //是否有上一页
+                "hasNext": true,                      //是否有下一页
+                "items": [
+                    {
+                        "id": "554744372432733187",   //id
+                        "coin": "usdt",               //币种
+                        "amount": "-10624.3177",      //余额
+                        "createdTime": 1761963365040  //时间戳
+                    }
+                ]
+          }
         }
       title: Response
       language: json

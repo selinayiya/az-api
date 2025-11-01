@@ -45,20 +45,20 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "hasNext": false, //Is there a next page
-            "hasPrev": false, //Is there a previous page
-            "items": [ //Datasheets
-              {
-                "amount": 0, //Balance
-                "coin": "", //Currency
-                "createdTime": 0, //Time
-                "id": 0 //id
-              }
-            ]
-          },
-          "returnCode": 0
+                "hasPrev": false,                     //Is there a previous page
+                "hasNext": true,                      //Is there a next page
+                "items": [
+                    {
+                        "id": "554744372432733187",   //id
+                        "coin": "usdt",               //Currency
+                        "amount": "-10624.3177",      //Balance
+                        "createdTime": 1761963365040  //Timestamp
+                    }
+                ]
+          }
         }
       title: Response
       language: json

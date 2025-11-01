@@ -31,21 +31,14 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "hasNext": false, //是否有下一页
-            "hasPrev": false, //是否有上一页
-            "items": [ //数据列表
-              {
-                "collectionInternal": 0, //收取时间间隔（时）
-                "createdTime": 0, //时间
-                "fundingRate": 0, //最新资金费率
-                "id": 0, //id
-                "symbol": "" //交易对
-              }
-            ]
-          },
-          "returnCode": 0
+                "symbol": "btc_usdt",               //交易对
+                "fundingRate": -1.53695081E-4,      //最新资金费率
+                "nextCollectionTime": 1761984000000,//下次收取时间
+                "collectionInternal": 1             //收取时间间隔（时）
+          }
         }
       title: Response
       language: json
