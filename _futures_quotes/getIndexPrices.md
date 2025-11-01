@@ -17,15 +17,15 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": [
             {
-              "p": 0, //Price
-              "s": "", //Trading pair
-              "t": 0 //Time
+                "s": "eth_usdt",   //Trading pair
+                "p": "3857.579503",//Price
+                "t": 1761980457446 //Timestamp
             }
-          ],
-          "returnCode": 0
+          ]
         }
       title: Response
       language: json

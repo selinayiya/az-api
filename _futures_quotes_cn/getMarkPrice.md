@@ -24,13 +24,13 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "p": 0, //价格
-            "s": "", //交易对
-            "t": 0 //时间
-          },
-          "returnCode": 0
+                "s": "btc_usdt",   //交易对
+                "p": "110069.5",   //价格
+                "t": 1761981015615 //时间
+          }
         }
       title: Response
       language: json

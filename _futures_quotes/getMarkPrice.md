@@ -24,13 +24,13 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
-            "p": 0, //Price
-            "s": "", //Trading pair
-            "t": 0 //Time
-          },
-          "returnCode": 0
+                "s": "btc_usdt",   //Trading pair
+                "p": "110069.5",   //Price
+                "t": 1761981015615 //Timestamp
+          }
         }
       title: Response
       language: json
