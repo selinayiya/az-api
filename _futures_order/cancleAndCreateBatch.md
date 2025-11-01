@@ -99,8 +99,12 @@ tables:
         ranges: LONG;SHORT
 
 content_markdown: |-
+                #### **Note**
 
-                #### **限流规则**
+                For Market Makers Only
+
+
+                #### **Limit Flow Rules**
 
                 200/s/apikey
 right_code_blocks:
