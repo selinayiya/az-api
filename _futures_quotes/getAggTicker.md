@@ -24,23 +24,23 @@ right_code_blocks:
           "code": "",
           "msg": ""
         },
-        "msgInfo": "",
+        "msgInfo": "success",
+        "returnCode": 0,
         "result": {
-          "a": "", //24h volume
-          "ap": "", //ask price
-          "bp": "", //bid price
-          "c": "", //Latest price
-          "h": "", //Highest price in 24 hours
-          "i": "", //index price
-          "l": "", //Lowest price in 24 hours
-          "m": "", //mark price
-          "o": "", //The first transaction price 24 hours ago
-          "r": "", //24h price fluctuation limit
-          "s": "", //Trading pair
-          "t": 0, //Time
-          "v": "" //24h Turnover
-        },
-        "returnCode": 0
+                "t": 1761982678496,         //Timestamp
+                "s": "btc_usdt",            //Trading pair
+                "c": "110163.8",            //Latest price
+                "h": "114308.1",            //Highest price in 24 hours
+                "l": "108600.0",            //Lowest price in 24 hours
+                "a": "3140672",             //24h volume
+                "v": "34554966.27918",      //24h Turnover
+                "o": "109469.0",            //The first transaction price 24 hours ago
+                "r": "0.0063",              //24h price fluctuation limit
+                "i": "110201.470933300000", //index price
+                "m": "110163.8",            //mark price
+                "bp": "110163.7",           //bid price
+                "ap": "110163.8"            //ask price
+        }
       }
     title: Response
     language: json
