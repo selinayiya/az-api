@@ -1,111 +1,108 @@
 ---
-title: Create Orders
-position_number: 1
+title: Batch Order Placement and Cancellation
+position_number: 8
 type: post
-description: /az/future/trade/v1/order/create
+description: /az/future/trade/v1/order/batch
 remark: Content-Type = application/x-www-form-urlencoded && application/json
 parameters:
-    -
+  - name: createOrderFirst
+    type: bool
+    mandatory: false
+    default: true
+    description: Place orders first by default; otherwise, cancel orders first.
+    ranges:
+  - name: createOrders
+    type: Set&lt;OrderCreateDTO&gt;
+    mandatory: false
+    default: 
+    description:  Order list — a collection of OrderCreateDTO objects.
+    ranges:
+  - name: cancelOrderIds
+    type: Set&lt;Long&gt;
+    mandatory: false
+    default:
+    description: Cancellation list — a collection of order IDs.
+    ranges:
+      
+tables:
+  - title: OrderCreateDTO
+    data:
+      -
         name: clientOrderId
         type: string
         mandatory: false
         default: N/A
         description: Client order ID
         ranges:
-    -
+      -
         name: symbol
         type: string
         mandatory: true
-        default: 
+        default:
         description: Trading pair
         ranges:
-    -
+      -
         name: orderSide
         type: string
         mandatory: true
         default: N/A
         description: Order side:BUY;SELL
         ranges: BUY;SELL
-    -
+      -
         name: orderType
         type: string
         mandatory: true
         default: N/A
         description: Order type:LIMIT；MARKET
         ranges: LIMIT；MARKET
-    -
+      -
         name: origQty
         type: number
         mandatory: true
         default: N/A
         description: Quantity (Cont)
         ranges:
-    -
+      -
         name: price
         type: number
         mandatory: false
         default: N/A
         description: Price
         ranges:
-    -
+      -
         name: timeInForce
         type: string
         mandatory: false
         default: GTC
         description: Valid way:GTC;IOC;FOK;GTX
         ranges: GTC;IOC;FOK;GTX
-    -
+      -
         name: triggerProfitPrice
         type: number
         mandatory: false
         default: N/A
         description: Stop profit price
         ranges:
-    -
+      -
         name: triggerStopPrice
         type: number
         mandatory: false
         default: N/A
         description: Stop loss price
         ranges:
-    -
+      -
         name: positionSide
         type: string
         mandatory: true
         default: N/A
         description: Position side:LONG;SHORT
         ranges: LONG;SHORT
+
 content_markdown: |-
-  #### **OrigQty Calculation Formula**
 
-  ###### **Formula**  
+                #### **限流规则**
 
-  origQty = Truncate ((Balance * Percent * Leverage ) / (Mark_price * Contract_size))
-
-  ###### **Explain**
-
-      Truncate : take the integer part 
-
-      Balance : (walletBalance - openOrderMarginFrozen) , api: /az/future/user/v1/compat/balance/list  
-
-      Percent : user input , exp: 0.2 
-
-      Leverage : leverage your want , exp: 20 
-
-      Mark_price : current symobl mark price , exp: 88888 (btc_usdt) 
-
-      Contract_size : contractSize , api: /az/future/market/v1/public/symbol/detail , Contract multiplier(face value)  
-
-  ###### **Example**
-  truncate(10000 * 0.2 * 20 / 88888 / 0.0001) = 4500
-
-  #### **Limit Flow Rules**
-  200/s/apikey
-left_code_blocks:
-    -
-        code_block: "public void getKLine() {\r\n\tString text = HttpUtil.get(URL + \"/data/api/az/future/trade/v1/getKLine?market=btc_usdt&type=1min&since=0\");\r\n\tSystem.out.println(text);\r\n}"
-        title: Java
-        language: java
+                200/s/apikey
 right_code_blocks:
   - code_block: |-
       {
@@ -114,7 +111,7 @@ right_code_blocks:
           "msg": ""
         },
         "msgInfo": "success",
-        "result": "554845056780618880",  //Order Id
+        "result": true,
         "returnCode": 0
       }
     title: Response
