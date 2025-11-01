@@ -120,8 +120,8 @@ right_code_blocks:
           "code": "",
           "msg": ""
         },
-        "msgInfo": "",
-        "result": {},
+        "msgInfo": "success",
+        "result": "554845056780618880",  //Order Id
         "returnCode": 0
       }
     title: Response
