@@ -24,23 +24,22 @@ right_code_blocks:
             "code": "",
             "msg": ""
           },
-          "msgInfo": "",
+          "msgInfo": "success",
+          "returnCode": 0,
           "result": {
+            "symbol": "btc_usdt",
             "leverageBrackets": [
               {
-                "bracket": 0, //Level
-                "maintMarginRate": 0, //Maintain margin rate
-                "maxLeverage": 0, //Maximum leverage
-                "maxNominalValue": 0, //Maximum notional value
-                "maxStartMarginRate": 0, //Maximum initial margin rate
-                "minLeverage": 0, //Minimum leverage
-                "startMarginRate": 0, //Initial margin rate
-                "symbol": "" //Trading pair
+                    "symbol": "btc_usdt",       //Trading pair
+                    "bracket": 1,               //Level
+                    "maxNominalValue": "50000", //Maximum notional value
+                    "maintMarginRate": "0.004", //Maintain margin rate
+                    "startMarginRate": "0.008", //Initial margin rate
+                    "maxLeverage": "125",       //Maximum leverage
+                    "minLeverage": "1"          //Minimum leverage
               }
-            ],
-            "symbol": ""
-          },
-          "returnCode": 0
+            ]
+          }
         }
       title: Response
       language: json

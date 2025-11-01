@@ -47,8 +47,8 @@ right_code_blocks:
                         "positionSide": "LONG",     //Position side
                         "isMaker": true,            //Is maker or not, true:maker;false:taker
                         "fee": 0.0002,              //fee
-                        "oppositeUserId": 1234,     //Opposite User Id
-                        "oppositeOrderId": 2345     //Opposite Order Id
+                        "oppositeUserId": 1234,     //Opposite User Id, Provided for Market Makers Only
+                        "oppositeOrderId": 2345     //Opposite Order Id, Provided for Market Makers Only
                    }
             }
         title: Response
