@@ -19,20 +19,6 @@ parameters:
         description: 交易对
         ranges:
     -
-        name: page
-        type: integer
-        mandatory: false
-        default: 1
-        description: "页码\t"
-        ranges:
-    -
-        name: size
-        type: integer
-        mandatory: false
-        default: 10
-        description: "单页数\t"
-        ranges:
-    -
         name: startTime
         type: integer
         mandatory: false
@@ -46,6 +32,27 @@ parameters:
         default: N/A
         description: 结束时间
         ranges:
+    -
+        name: fromId
+        type: string
+        mandatory: false
+        default:
+        description: 上次开始分页的Id，即记录的主键id
+        ranges:
+    -
+        name: direction
+        type: string
+        mandatory: false
+        default: NEXT
+        description: 分页方向
+        ranges: NEXT：下一页，PREV：上一页
+    -
+        name: size
+        type: int
+        mandatory: false
+        default: 10
+        description: 每页记录数，最大不超过100
+        ranges: 1<=limit<=100
 content_markdown: |-
 
                #### **限流规则**
@@ -66,11 +73,11 @@ right_code_blocks:
           "msgInfo": "success",
           "returnCode": 0,
           "result": {
-                "page": 1,
-                "ps": 10,
-                "total": 9,
+                "hasPrev": false,
+                "hasNext": false,
                 "items": [
                     {
+                        "id": "123",                     //Id
                         "orderId": "551497070209712960", //订单id
                         "execId": "551497070368784451",  //成交id
                         "symbol": "btc_usdt",            //交易对

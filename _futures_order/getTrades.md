@@ -19,20 +19,6 @@ parameters:
         description: Trading pair
         ranges:
     -
-        name: page
-        type: integer
-        mandatory: false
-        default: 1
-        description: "Page\t"
-        ranges:
-    -
-        name: size
-        type: integer
-        mandatory: false
-        default: 10
-        description: "Quantity of a single page\t"
-        ranges:
-    -
         name: startTime
         type: integer
         mandatory: false
@@ -46,6 +32,27 @@ parameters:
         default: N/A
         description: end time
         ranges:
+    -
+        name: fromId
+        type: string
+        mandatory: false
+        default:
+        description: Start ID, e.g. 6216559590087220004
+        ranges:
+    -
+        name: direction
+        type: string
+        mandatory: false
+        default: NEXT
+        description: query direction
+        ranges: query direction:PREV, NEXT
+    -
+        name: size
+        type: int
+        mandatory: false
+        default: 10
+        description: Limit number, max 100
+        ranges: 1<=limit<=100
 content_markdown: |-
 
              #### **Limit Flow Rules**
@@ -66,11 +73,11 @@ right_code_blocks:
           "msgInfo": "success",
           "returnCode": 0,
           "result": {
-                "page": 1,
-                "ps": 10,
-                "total": 9,
+                "hasPrev": false,
+                "hasNext": false,
                 "items": [
                     {
+                        "id": "123",                     //Id
                         "orderId": "551497070209712960", //Order Id
                         "execId": "551497070368784451",  //Execution Id
                         "symbol": "btc_usdt",            //Symbol
