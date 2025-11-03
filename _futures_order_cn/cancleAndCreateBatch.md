@@ -16,13 +16,13 @@ parameters:
     mandatory: false
     default: 
     description: 下单列表，下单参数OrderCreateDTO集合
-    ranges:
+    ranges: 最大支持100个
   - name: cancelOrderIds
     type: Set&lt;Long&gt;
     mandatory: false
     default:
     description: 撤单列表，订单Id的集合
-    ranges:
+    ranges: 最大支持100个
       
 tables:
   - title: OrderCreateDTO
@@ -30,7 +30,7 @@ tables:
       -
         name: clientOrderId
         type: string
-        mandatory: false
+        mandatory: true
         default: N/A
         description: 自定义订单id
         ranges:
@@ -114,7 +114,21 @@ right_code_blocks:
           "msg": ""
         },
         "msgInfo": "success",
-        "result": true,
+        "result": {
+                      "createOrdersResponse": [
+                        {
+                          "clientOrderId": "abc123",
+                          "orderId": 100001,
+                          "createState": 1
+                        }
+                      ],
+                      "cancelOrdersResponse": [
+                        {
+                          "cancelOrderId": 100002,
+                          "cancelState": 1
+                        }
+                      ]      
+         },
         "returnCode": 0
       }
     title: Response

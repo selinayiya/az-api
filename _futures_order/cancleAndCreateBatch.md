@@ -16,13 +16,13 @@ parameters:
     mandatory: false
     default: 
     description:  Order list — a collection of OrderCreateDTO objects.
-    ranges:
+    ranges: Supports up to 100
   - name: cancelOrderIds
     type: Set&lt;Long&gt;
     mandatory: false
     default:
     description: Cancellation list — a collection of order IDs.
-    ranges:
+    ranges: Supports up to 100
       
 tables:
   - title: OrderCreateDTO
@@ -30,10 +30,10 @@ tables:
       -
         name: clientOrderId
         type: string
-        mandatory: false
+        mandatory: true
         default: N/A
         description: Client order ID
-        ranges:
+        ranges: 
       -
         name: symbol
         type: string
@@ -115,7 +115,21 @@ right_code_blocks:
           "msg": ""
         },
         "msgInfo": "success",
-        "result": true,
+        "result": {
+                      "createOrdersResponse": [
+                        {
+                          "clientOrderId": "abc123",
+                          "orderId": 100001,
+                          "createState": 1
+                        }
+                      ],
+                      "cancelOrdersResponse": [
+                        {
+                          "cancelOrderId": 100002,
+                          "cancelState": 1
+                        }
+                      ] 
+        },
         "returnCode": 0
       }
     title: Response
