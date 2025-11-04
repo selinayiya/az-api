@@ -89,7 +89,9 @@ right_code_blocks:
                         "timestamp": 1761189147896,      //Timestamp
                         "takerMaker": "TAKER",           
                         "orderSide": "BUY",              //Order Size
-                        "positionSide": "LONG"           //Position Size
+                        "positionSide": "LONG",          //Position Size
+                        "oppositeUserId": "372676",      //Opposite User Id
+                        "oppositeOrderId": "55149707"    //Opposite Order Id
                     }
                 ]
           }

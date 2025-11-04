@@ -89,7 +89,9 @@ right_code_blocks:
                         "timestamp": 1761189147896,      //时间戳
                         "takerMaker": "TAKER",           
                         "orderSide": "BUY",              //买卖方向
-                        "positionSide": "LONG"           //持仓方向
+                        "positionSide": "LONG",          //持仓方向
+                        "oppositeUserId": "3726765",     //对手方用户id
+                        "oppositeOrderId": "55149707"    //对手方订单id
                     }
                 ]
           }
