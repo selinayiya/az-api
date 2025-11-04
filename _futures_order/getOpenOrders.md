@@ -44,6 +44,8 @@ right_code_blocks:
         },
         "msgInfo": "",
         "result": {
+          "total": 7,
+          "size": 7,
           "content": [
             { 
                     "orderId": "555841481206904320",   //Order id
@@ -67,10 +69,7 @@ right_code_blocks:
                     "updatedTime": 1762224936227,
                     "markPrice": "106524.9"            //Mark Price
             }
-          ],
-          "page": 0,
-          "ps": 0,
-          "total": 0
+          ]
         },
         "returnCode": 0
       }

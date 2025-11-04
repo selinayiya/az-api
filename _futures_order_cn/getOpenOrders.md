@@ -44,6 +44,8 @@ right_code_blocks:
         },
         "msgInfo": "",
         "result": {
+          "total": 7,
+          "size": 7,
           "content": [
             { 
                     "orderId": "555841481206904320",   //订单id
