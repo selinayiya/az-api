@@ -51,6 +51,7 @@ right_code_blocks:
                     "orderId": "555841481206904320",   //订单id
                     "clientOrderId": "123",            //自定义id
                     "symbol": "btc_usdt",              //交易对
+                    "state": "NEW",                    //订单状态 NEW,PLACED,PARTIALLY_FILLED
                     "contractSize": 0.000100000000,    //合约面值
                     "orderType": "LIMIT",              //订单类型
                     "orderSide": "BUY",                //买卖方向

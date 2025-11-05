@@ -51,6 +51,7 @@ right_code_blocks:
                     "orderId": "555841481206904320",   //Order id
                     "clientOrderId": "123",            //Client Order Id
                     "symbol": "btc_usdt",              //Trading pair
+                    "state": "NEW",                    //Order State NEW,PLACED,PARTIALLY_FILLED
                     "contractSize": 0.000100000000,    //Contract size
                     "orderType": "LIMIT",              //Order type
                     "orderSide": "BUY",                //Order side
