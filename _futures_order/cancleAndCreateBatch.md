@@ -119,13 +119,13 @@ right_code_blocks:
                       "createOrdersResponse": [
                         {
                           "clientOrderId": "abc123",
-                          "orderId": 100001,
+                          "orderId": "100001",
                           "createState": 1
                         }
                       ],
                       "cancelOrdersResponse": [
                         {
-                          "cancelOrderId": 100002,
+                          "cancelOrderId": "100002",
                           "cancelState": 1
                         }
                       ] 

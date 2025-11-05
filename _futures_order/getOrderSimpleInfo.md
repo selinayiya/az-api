@@ -33,7 +33,7 @@ right_code_blocks:
         "msgInfo": "success",
         "returnCode": 0,
         "result": {
-              "orderId": 17248809452176384,              //Order Id
+              "orderId": "17248809452176384",              //Order Id
               "orderClientIp": "127.0.0.1",              //Order Placing User IP
               "userWalletAddress": "0xDd3356f03xxxxx",   //Order Placing User Address
               "chainType": "ETHEREUM"                    //Chain Type

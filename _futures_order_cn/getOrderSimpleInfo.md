@@ -33,7 +33,7 @@ right_code_blocks:
         "msgInfo": "success",
         "returnCode": 0,
         "result": {
-              "orderId": 17248809452176384,              //订单ID
+              "orderId": "17248809452176384",              //订单ID
               "orderClientIp": "127.0.0.1",              //下单用户IP
               "userWalletAddress": "0xDd3356f03xxxxx",   //下单用户钱包地址
               "chainType": "ETHEREUM"                    //链类型
