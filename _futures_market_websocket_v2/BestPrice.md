@@ -34,7 +34,9 @@ right_code_blocks:
                     "data": {
                         "s": "btc_usdt", //symbol
                         "a": "109598.4", //ask
+                        "aa": "2710",    //ask amount
                         "b": "109598.3", //bid
+                        "ba": "3784",    //bid amount
                         "t": 123124124   //timestamp
                     }
                 }

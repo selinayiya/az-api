@@ -52,7 +52,8 @@ right_code_blocks:
                          "createdTime": 1731231231,  // CreateTime
                          "leverage":20,              //leverage
                          "positionType": "ISOLATED", //position type:CROSSED;ISOLATED
-                         "orderType:": "MARKET"      //Order Type [LIMIT;MARKET]
+                         "orderType:": "MARKET",     //Order Type [LIMIT;MARKET]
+                         "lastTradeId": "556931318219666113"  //Last Trade ID
                        }
                 }
         title: Response

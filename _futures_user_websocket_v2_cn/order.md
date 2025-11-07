@@ -51,7 +51,8 @@ right_code_blocks:
                          "createdTime": 1731231231,   // 下单时间
                          "leverage":20,              // 杠杆倍数
                          "positionType": "ISOLATED", // 仓位类型：CROSSED（全仓）；ISOLATED（逐仓）
-                         "orderType:": "MARKET"      // 订单类型 LIMIT：限价, MARKET：市价
+                         "orderType:": "MARKET",     // 订单类型 LIMIT：限价, MARKET：市价
+                         "lastTradeId": "556931318219666113"  //最后一次成交id
                        }
                 }
         title: Response

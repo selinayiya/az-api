@@ -36,6 +36,7 @@ right_code_blocks:
                 "topic": "trade", 
                 "event": "trade@123456", 
                 "data": {
+                        "id": "556931318219666113",
                         "orderId":"12312312",       // Order ID
                         "clientOrderId":"123456",   // Client order ID
                         "price":"34244",            // Price
