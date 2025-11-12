@@ -6,7 +6,7 @@ parameters:
 content:
 content_markdown: >-
 
-    以https://s-api.myaztests.com/az/spot/order为例。
+    以https://s-api.azverse.com/az/spot/order为例。
     
     
     以下是在linux bash环境下使用 echo openssl 和curl工具实现的一个调用接口下单的示例 appkey、secret仅供示范：
@@ -153,7 +153,7 @@ content_markdown: >-
 
         请求报文样例：
       
-            curl --location --request POST 'https://s-api.myaztests.com/az/spot/order' 
+            curl --location --request POST 'https://s-api.azverse.com/az/spot/order' 
             --header 'accept: */*' 
             --header 'Content-Type: application/json' 
             --header 'validate-algorithms: HmacSHA256' 

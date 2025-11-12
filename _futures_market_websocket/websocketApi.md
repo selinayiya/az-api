@@ -14,11 +14,11 @@ parameters:
 content_markdown: |-
     Official:
 
-    wss://fstream.az.com
+    wss://f-ws.azverse.com
     
-    WS market information subscription address:  wss://fstream.az.com/ws/market
+    WS market information subscription address:  wss://f-ws.azverse.com/ws/market
     
-    WS user subscription address:  wss://f-ws.myaztests.com/ws/user
+    WS user subscription address:  wss://f-ws.azverse.com/ws/user
 
 left_code_blocks:
 -
