@@ -11,10 +11,14 @@ parameters:
         default:
         description:
         ranges:
-content_markdown: >-
+content_markdown: |-
     #### **Base Address**
 
-    ##### **wss://f-ws.myaztests.com/ws/user**
+    **production environment: wss://f-ws.azverse.com/ws/user**
+    {: .info}
+
+    **sandbox environment: wss://f-ws.azbeta.com/ws/user**
+    {: .info}
 
 
     ---

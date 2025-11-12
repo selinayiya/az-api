@@ -12,10 +12,14 @@ parameters:
         default:
         description:
         ranges:
-content_markdown: >-
+content_markdown: |-
     #### **基地址**
 
-    ##### **wss://s-ws.myaztests.com/private**
+    **生产环境: wss://s-ws.azverse.com/private**
+    {: .info}
+
+    **测试环境: wss://s-ws.azbeta.com/private**
+    {: .info}
 
 
     ---

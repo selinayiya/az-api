@@ -12,10 +12,14 @@ parameters:
         default:
         description:
         ranges:
-content_markdown: >-
+content_markdown: |-
     #### **基地址**
 
-    ##### **wss://fstream.az.com/ws/market**
+    **生产环境: wss://f-ws.azverse.com/ws/market**
+    {: .info}
+
+    **测试环境: wss://f-ws.azbeta.com/ws/market**
+    {: .info}
 
 
     ---

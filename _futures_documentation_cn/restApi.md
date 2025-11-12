@@ -8,7 +8,10 @@ parameters:
 content_markdown: |-
     正式:
 
-    **U本位合约:https://f-api.myaztests.com**
+    **生产环境: https://f-api.azverse.com**
+    {: .info}
+
+    **测试环境: https://f-api.azbeta.com**
     {: .info}
 
 

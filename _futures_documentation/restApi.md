@@ -8,7 +8,10 @@ parameters:
 content_markdown: |-
     Official:
 
-    **USDT-M:https://f-api.myaztests.com**
+    **production environment: https://f-api.azverse.com**
+    {: .info}
+
+    **sandbox environment: https://f-api.azbeta.com**
     {: .info}
 
 

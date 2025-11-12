@@ -12,10 +12,14 @@ parameters:
         default:
         description:
         ranges:
-content_markdown: >-
+content_markdown: |-
     #### **Base Address**
 
-    ##### **wss://fstream.az.com/ws/market**
+    **production environment: wss://f-ws.azverse.com/ws/market**
+    {: .info}
+
+    **sandbox environment: wss://f-ws.azbeta.com/ws/market**
+    {: .info}
 
 
     ---

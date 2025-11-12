@@ -7,7 +7,10 @@ parameters:
         content:
 content_markdown: |-
 
-    **production environment: https://s-api.myaztests.com**
+    **production environment: https://s-api.azverse.com**
+    {: .info}
+  
+    **sandbox environment: https://s-api.azbeta.com**
     {: .info}
 
 

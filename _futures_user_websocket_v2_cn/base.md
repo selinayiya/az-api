@@ -11,10 +11,14 @@ parameters:
         default:
         description:
         ranges:
-content_markdown: >-
+content_markdown: |-
     #### **基地址**
 
-    ##### **wss://f-ws.myaztests.com/ws/user**
+    **生产环境: wss://f-ws.azverse.com/ws/user**
+    {: .info}
+
+    **测试环境: wss://f-ws.azbeta.com/ws/user**
+    {: .info}
 
 
     ---
