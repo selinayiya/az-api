@@ -32,17 +32,33 @@ right_code_blocks:
                   ],
                   "result": [
                     {
-                       "id": 11,            //币种id
-                      "currency": "usdt",   //币种名称
-                      "fullName": "usdt",   //币种全称
-                      "logo": null,         //币种logo
-                      "cmcLink": null,      //cmc链接
-                      "weight": 100,        //权重
-                      "maxPrecision": 6,    //精度
-                      "depositStatus": 1,   //充值状态(0关闭 1开放)
-                      "withdrawStatus": 1,  //提现状态(0关闭 1开放)
-                      "convertEnabled": 1,  //小额资产兑换开关[0=关;1=开]
-                      "transferEnabled": 1  //划转开关[0=关;1=开]
+                        "id": 2,               //币种id
+                        "currency": "btc",     //币种名称
+                        "displayName": "BTC",  //currency display name
+                        "type": "FT",
+                        "fullName": "Bitcoin", //币种全称
+                        "logo": "https://a.static-global.com/1/currency/btc.png",
+                        "cmcLink": "https://coinmarketcap.com/currencies/bitcoin/",
+                        "weight": 99999,
+                        "maxPrecision": 10,
+                        "depositStatus": 0,    //充值状态(0关闭 1开放)
+                        "withdrawStatus": 0,   //提现状态(0关闭 1开放)
+                        "convertEnabled": 1,   //小额资产兑换开关[0=关;1=开]
+                        "transferEnabled": 1,  //划转开关[0=关;1=开]
+                        "isChainExist": 1,
+                        "plates": [],
+                        "isListing": 1,
+                        "withdrawCloseReason": "CURRENCY_CLOSE_REASON_5",
+                        "chainRelation": [
+                            {
+                                "chainId": 715,
+                                "contract": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c"
+                            },
+                            {
+                                "chainId": 5,
+                                "contract": "0x9BE89D2a4cd102D8Fecc6BF9dA793be995C22541"
+                            }
+                        ]           
                     }
                   ]
                 }
