@@ -17,7 +17,7 @@ content_markdown: |-
     **production environment: wss://f-ws.azverse.com/ws/user**
     {: .info}
 
-    **sandbox environment: wss://f-ws.azbeta.com/ws/user**
+    **sandbox environment: wss://f-ws.myaztests.com/ws/user**
     {: .info}
 
 

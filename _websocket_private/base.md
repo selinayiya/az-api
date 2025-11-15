@@ -18,7 +18,7 @@ content_markdown: |-
     **生产环境: wss://s-ws.azverse.com/private**
     {: .info}
 
-    **测试环境: wss://s-ws.azbeta.com/private**
+    **测试环境: wss://s-ws.myaztests.com/private**
     {: .info}
 
 

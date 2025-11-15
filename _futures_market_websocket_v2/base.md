@@ -18,7 +18,7 @@ content_markdown: |-
     **production environment: wss://f-ws.azverse.com/ws/market**
     {: .info}
 
-    **sandbox environment: wss://f-ws.azbeta.com/ws/market**
+    **sandbox environment: wss://f-ws.myaztests.com/ws/market**
     {: .info}
 
 

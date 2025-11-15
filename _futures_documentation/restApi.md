@@ -11,7 +11,7 @@ content_markdown: |-
     **production environment: https://f-api.azverse.com**
     {: .info}
 
-    **sandbox environment: https://f-api.azbeta.com**
+    **sandbox environment: https://f-api.myaztests.com**
     {: .info}
 
 

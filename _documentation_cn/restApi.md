@@ -10,7 +10,7 @@ content_markdown: |-
     **生产环境: https://s-api.azverse.com**
     {: .info}
   
-    **测试环境: https://s-api.azbeta.com**
+    **测试环境: https://s-api.myaztests.com**
     {: .info}
 
 
