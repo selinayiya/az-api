@@ -15,7 +15,7 @@ parameters:
 content_markdown: |-
     #### **基地址**
 
-    **生产环境: wss://f-ws.azverse.com/ws/market**
+    **生产环境: wss://f-ws.azverse.xyz/ws/market**
     {: .info}
 
     **测试环境: wss://f-ws.myaztests.com/ws/market**

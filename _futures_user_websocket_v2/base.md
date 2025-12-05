@@ -14,7 +14,7 @@ parameters:
 content_markdown: |-
     #### **Base Address**
 
-    **production environment: wss://f-ws.azverse.com/ws/user**
+    **production environment: wss://f-ws.azverse.xyz/ws/user**
     {: .info}
 
     **sandbox environment: wss://f-ws.myaztests.com/ws/user**

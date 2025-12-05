@@ -14,7 +14,7 @@ parameters:
 content_markdown: |-
     Official:
 
-    **wss://f-ws.azverse.com/websocket**
+    **wss://f-ws.azverse.xyz/websocket**
     {: .info}
 
 left_code_blocks:

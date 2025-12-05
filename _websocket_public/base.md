@@ -17,7 +17,7 @@ content_markdown: |-
     #### **Base Address**
 
 
-    **production environment: wss://s-ws.azverse.com/public**
+    **production environment: wss://s-ws.azverse.xyz/public**
     {: .info}
 
     **sandbox environment: wss://s-ws.myaztests.com/public**

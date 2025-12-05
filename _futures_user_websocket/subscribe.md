@@ -12,7 +12,7 @@ parameters:
         description:
         ranges:
 content_markdown: |-
-    WS user subscription address:wss://f-ws.azverse.com/ws/user
+    WS user subscription address:wss://f-ws.azverse.xyz/ws/user
     
     Step 1: The user need to call the interface: /az/future/user/v1/user/listen-key to get the listenKey.
     

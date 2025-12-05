@@ -8,7 +8,7 @@ parameters:
 content_markdown: |-
     Official:
 
-    **production environment: https://f-api.azverse.com**
+    **production environment: https://f-api.azverse.xyz**
     {: .info}
 
     **sandbox environment: https://f-api.myaztests.com**

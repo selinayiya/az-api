@@ -8,7 +8,7 @@ parameters:
 content_markdown: |-
     正式:
 
-    **生产环境: https://f-api.azverse.com**
+    **生产环境: https://f-api.azverse.xyz**
     {: .info}
 
     **测试环境: https://f-api.myaztests.com**

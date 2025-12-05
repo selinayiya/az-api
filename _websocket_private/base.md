@@ -15,7 +15,7 @@ parameters:
 content_markdown: |-
     #### **Base Address**
 
-    **生产环境: wss://s-ws.azverse.com/private**
+    **生产环境: wss://s-ws.azverse.xyz/private**
     {: .info}
 
     **测试环境: wss://s-ws.myaztests.com/private**
