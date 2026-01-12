@@ -11,7 +11,7 @@ content_markdown: |-
     **生产环境: https://f-api.azverse.xyz**
     {: .info}
 
-    **测试环境: https://f-api.myaztests.com**
+    **测试环境: https://f-api.az-qa.xyz**
     {: .info}
 
 

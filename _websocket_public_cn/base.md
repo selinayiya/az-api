@@ -20,7 +20,7 @@ content_markdown: |-
     **生产环境: wss://s-ws.azverse.xyz/public**
     {: .info}
 
-    **测试环境: wss://s-ws.myaztests.com/public**
+    **测试环境: wss://s-ws.az-qa.xyz/public**
     {: .info}
 
 

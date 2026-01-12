@@ -20,7 +20,7 @@ content_markdown: |-
     **production environment: wss://s-ws.azverse.xyz/public**
     {: .info}
 
-    **sandbox environment: wss://s-ws.myaztests.com/public**
+    **sandbox environment: wss://s-ws.az-qa.xyz/public**
     {: .info}
 
 
