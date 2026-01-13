@@ -113,21 +113,21 @@ right_code_blocks:
           "msg": ""
         },
         "msgInfo": "success",
-        "result": {
+        "result": [{
                       "createOrdersResponse": [
                         {
                           "clientOrderId": "abc123",
                           "orderId": "100001",
-                          "createState": "1"
+                          "createState": "ORDER_000"  //参考响应代码
                         }
                       ],
                       "cancelOrdersResponse": [
                         {
                           "cancelOrderId": "100002",
-                          "cancelState": "1"
+                          "cancelState": "ORDER_000" //参考响应代码
                         }
                       ]      
-         },
+                  }],
         "returnCode": 0
       }
     title: Response
