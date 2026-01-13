@@ -48,6 +48,36 @@
             </table>
             {% endif %}
 
+            {% if doc.tables %}
+            {% for table in doc.tables %}
+            <h6>{{ table.title }}</h6>
+            <table>
+                <thead>
+                <tr>
+                    <th>Parameter</th>
+                    <th>Type</th>
+                    <th>Mandatory</th>
+                    <th>Default</th>
+                    <th>Description</th>
+                    <th>Ranges</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for row in table.data %}
+                <tr>
+                    <td>{{ row.name }}</td>
+                    <td>{{ row.type }}</td>
+                    <td>{{ row.mandatory }}</td>
+                    <td>{{ row.default }}</td>
+                    <td style="word-break: break-all;">{{ row.description }}</td>
+                    <td style="word-break: break-all;">{{ row.ranges }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% endfor %}
+            {% endif %}
+
             {{ doc.content_markdown | markdownify | replace: "<dl>", "<h6>Parameters</h6><dl>" }}
 
             {% if doc.left_code_blocks and doc.left_code_blocks[0].code_block %}
@@ -118,6 +148,36 @@
                 {% endfor %}
                 </tbody>
             </table>
+            {% endif %}
+
+            {% if doc.tables %}
+            {% for table in doc.tables %}
+            <h6>{{ table.title }}</h6>
+            <table>
+                <thead>
+                <tr>
+                    <th>参数</th>
+                    <th>数据类型</th>
+                    <th>是否必须</th>
+                    <th>默认值</th>
+                    <th>描述</th>
+                    <th>取值范围</th>
+                </tr>
+                </thead>
+                <tbody>
+                {% for row in table.data %}
+                <tr>
+                    <td>{{ row.name }}</td>
+                    <td>{{ row.type }}</td>
+                    <td>{{ row.mandatory }}</td>
+                    <td>{{ row.default }}</td>
+                    <td style="word-break: break-all;">{{ row.description }}</td>
+                    <td style="word-break: break-all;">{{ row.ranges }}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+            {% endfor %}
             {% endif %}
 
             {{ doc.content_markdown | markdownify | replace: "<dl>", "<h6>Parameters</h6><dl>" }}
