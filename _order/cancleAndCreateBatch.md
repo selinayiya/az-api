@@ -4,32 +4,40 @@ position_number: 8
 type: post
 description: /az/spot/batch-order/basket
 parameters:
-  - name: createOrderFirst
-    type: bool
-    mandatory: false
-    default: true
-    description: Place orders first by default; otherwise, cancel orders first.
-    ranges:
-  - name: clientBatchId
-    type: string
+  - name: batchCreateCancelReqDTOList
+    type: Set&lt;batchCreateCancelReqDTO&gt;
     mandatory: true
     default: 
-    description: Batch order request id
+    description: 
     ranges:
-  - name: createOrders
-    type: Set&lt;OrderCreateReqDTO&gt;
-    mandatory: false
-    default: 
-    description: Order list — a collection of OrderCreateDTO objects.
-    ranges: Supports up to 100
-  - name: cancelOrderIds
-    type: Set&lt;Long&gt;
-    mandatory: false
-    default:
-    description: Cancellation list — a collection of order IDs.
-    ranges: Supports up to 100
       
 tables:
+  - title: batchCreateCancelReqDTO
+    data:
+      - name: createOrderFirst
+        type: bool
+        mandatory: false
+        default: true
+        description: Place orders first by default; otherwise, cancel orders first.
+        ranges:
+      - name: clientBatchId
+        type: string
+        mandatory: true
+        default:
+        description: Batch order request id
+        ranges:
+      - name: createOrders
+        type: Set&lt;OrderCreateReqDTO&gt;
+        mandatory: false
+        default:
+        description: Order list — a collection of OrderCreateDTO objects.
+        ranges: Supports up to 100
+      - name: cancelOrderIds
+        type: Set&lt;Long&gt;
+        mandatory: false
+        default:
+        description: Cancellation list — a collection of order IDs.
+        ranges: Supports up to 100
   - title: OrderCreateReqDTO
     data:
       -

@@ -4,32 +4,40 @@ position_number: 8
 type: post
 description: /az/spot/batch-order/basket
 parameters:
-  - name: createOrderFirst
-    type: bool
-    mandatory: false
-    default: true
-    description: 默认下单优先，否则撤单优先
-    ranges:
-  - name: clientBatchId
-    type: string
+  - name: batchCreateCancelReqDTOList
+    type: Set&lt;batchCreateCancelReqDTO&gt;
     mandatory: true
     default: 
-    description: 批量下、撤单批次号
+    description: 
     ranges:
-  - name: createOrders
-    type: Set&lt;OrderCreateReqDTO&gt;
-    mandatory: false
-    default: 
-    description: 下单列表，下单参数OrderCreateReqDTO集合
-    ranges: 最大支持100个
-  - name: cancelOrderIds
-    type: Set&lt;Long&gt;
-    mandatory: false
-    default:
-    description: 撤单列表，订单Id的集合
-    ranges: 最大支持100个
       
 tables:
+  - title: OrderCreateReqDTO
+    data:
+      - name: createOrderFirst
+        type: bool
+        mandatory: false
+        default: true
+        description: 默认下单优先，否则撤单优先
+        ranges:
+      - name: clientBatchId
+        type: string
+        mandatory: true
+        default:
+        description: 批量下、撤单批次号
+        ranges:
+      - name: createOrders
+        type: Set&lt;OrderCreateReqDTO&gt;
+        mandatory: false
+        default:
+        description: 下单列表，下单参数OrderCreateReqDTO集合
+        ranges: 最大支持100个
+      - name: cancelOrderIds
+        type: Set&lt;Long&gt;
+        mandatory: false
+        default:
+        description: 撤单列表，订单Id的集合
+        ranges: 最大支持100个  
   - title: OrderCreateReqDTO
     data:
       -
