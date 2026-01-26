@@ -44,7 +44,7 @@ right_code_blocks:
                         ]           
                     },
                     {
-                        "currency": "ETF",                  //币种
+                        "currency": "ETH",                  //币种
                         "supportChains": [
                             {
                                 "chain": "Ethereum",        //支持的转账网络
